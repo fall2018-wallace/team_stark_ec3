@@ -34,8 +34,12 @@
         },
         {
             "name": "data.csv"
+        },
+        {
+            "desc": "Exploring the data. calculating the spread, central tendency",
+            "name": "Exploring_data.R"
         }
     ],
-    "updated_at": "2018-10-10 00:13:17",
+    "updated_at": "2018-10-10 00:18:43",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
