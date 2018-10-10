@@ -38,8 +38,12 @@
         {
             "desc": "Exploring the data. calculating the spread, central tendency",
             "name": "Exploring_data.R"
+        },
+        {
+            "desc": "Performing explanatory data analysis",
+            "name": "EDA.R"
         }
     ],
-    "updated_at": "2018-10-10 00:18:43",
+    "updated_at": "2018-10-10 00:19:28",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
