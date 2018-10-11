@@ -29,6 +29,11 @@
             "ports": [],
             "source": "data.csv",
             "target": "Exploring_data.R"
+        },
+        {
+            "ports": [],
+            "source": "data.csv",
+            "target": "EDA.R"
         }
     ],
     "nodes": [
@@ -52,6 +57,6 @@
             "name": "EDA.R"
         }
     ],
-    "updated_at": "2018-10-11 03:55:51",
+    "updated_at": "2018-10-11 03:56:02",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
