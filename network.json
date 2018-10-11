@@ -64,11 +64,6 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "assigned_to": "sahmed",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "data.csv"
         },
         {
@@ -90,8 +85,14 @@
         },
         {
             "name": "plot3285.png"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-10-11 15:07:47",
+    "updated_at": "2018-10-11 15:52:56",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
