@@ -75,13 +75,13 @@
         },
         {
             "ports": [],
-            "source": "MultiRegression.R",
+            "source": "chitesting.R",
             "target": "script6471.R"
         },
         {
             "ports": [],
-            "source": "chitesting.R",
-            "target": "script6471.R"
+            "source": "script6471.R",
+            "target": "MultiRegression.R"
         }
     ],
     "nodes": [
@@ -150,6 +150,6 @@
             "name": "script6471.R"
         }
     ],
-    "updated_at": "2018-10-25 16:12:04",
+    "updated_at": "2018-10-25 16:12:15",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
