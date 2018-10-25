@@ -29,49 +29,53 @@
             "target": "plot7577.png"
         },
         {
-            "ports": [],
-            "source": "EDA.R",
-            "target": "plot1200.png"
-        },
-        {
-            "ports": [],
-            "source": "EDA.R",
-            "target": "plot3285.png"
-        },
-        {
             "ports": [
                 {
+                    "input": "data",
                     "output": "data",
-                    "type": "csv"
+                    "type": "r_obj"
                 }
             ],
-            "source": "clean.R",
-            "target": "data.csv"
+            "source": "outlierTest.R",
+            "target": "LogisticRegression.R"
         },
         {
             "ports": [
                 {
                     "input": "data",
-                    "type": "csv"
+                    "output": "data",
+                    "type": "r_obj"
                 }
             ],
-            "source": "data.csv",
+            "source": "outlierTest.R",
             "target": "chitesting.R"
         },
         {
             "ports": [
                 {
                     "input": "data",
-                    "type": "csv"
+                    "output": "data",
+                    "type": "r_obj"
                 }
             ],
-            "source": "data.csv",
+            "source": "outlierTest.R",
             "target": "MultiRegression.R"
         },
         {
             "ports": [
                 {
                     "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "outlierTest.R",
+            "target": "kmeans.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
                     "type": "csv"
                 }
             ],
@@ -81,32 +85,22 @@
         {
             "ports": [
                 {
-                    "input": "data",
+                    "input": "clean_data",
                     "type": "csv"
                 }
             ],
             "source": "data.csv",
-            "target": "LogisticRegression.R"
+            "target": "outlierTest.R"
         },
         {
             "ports": [
                 {
-                    "input": "data",
+                    "output": "clean_data",
                     "type": "csv"
                 }
             ],
-            "source": "data.csv",
-            "target": "kmeans.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "data.csv",
-            "target": "EDA.R"
+            "source": "clean.R",
+            "target": "data.csv"
         }
     ],
     "nodes": [
@@ -121,18 +115,6 @@
         },
         {
             "name": "plot7577.png"
-        },
-        {
-            "name": "plot1200.png"
-        },
-        {
-            "name": "plot3285.png"
-        },
-        {
-            "assigned_to": "not assigned",
-            "desc": "Performing explanatory data analysis",
-            "name": "EDA.R",
-            "task_status": "not started"
         },
         {
             "assigned_to": "xsong21",
@@ -169,8 +151,14 @@
             "desc": "Logistic regression",
             "name": "LogisticRegression.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "xsong21",
+            "desc": "",
+            "name": "outlierTest.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:07:27",
+    "updated_at": "2018-10-25 16:14:48",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
