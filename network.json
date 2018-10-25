@@ -111,12 +111,6 @@
             "task_status": "not started"
         },
         {
-            "assigned_to": "beallen",
-            "desc": "Logistic regression",
-            "name": "LogisticRegression.R",
-            "task_status": "not started"
-        },
-        {
             "assigned_to": "agauribi",
             "desc": "MultipleLinearRegression analysis",
             "name": "MultiRegression.R",
@@ -139,8 +133,14 @@
             "desc": "Customer Segmentation and clustering using K-means",
             "name": "kmeans.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "beallen",
+            "desc": "Logistic regression",
+            "name": "LogisticRegression.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:01:16",
+    "updated_at": "2018-10-25 16:01:21",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
