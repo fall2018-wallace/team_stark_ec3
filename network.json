@@ -64,11 +64,6 @@
             "target": "outlierTest.R"
         },
         {
-            "ports": [],
-            "source": "outlierTest.R",
-            "target": "kmeans.R"
-        },
-        {
             "ports": [
                 {
                     "input": "data",
@@ -100,6 +95,17 @@
             ],
             "source": "outlierTest.R",
             "target": "MultiRegression.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "outlierTest.R",
+            "target": "kmeans.R"
         }
     ],
     "nodes": [
@@ -170,6 +176,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:13:32",
+    "updated_at": "2018-10-25 16:13:41",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
