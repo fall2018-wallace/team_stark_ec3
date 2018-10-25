@@ -44,11 +44,6 @@
             "target": "plot3285.png"
         },
         {
-            "ports": [],
-            "source": "data.csv",
-            "target": "LogisticRegression.R"
-        },
-        {
             "ports": [
                 {
                     "output": "data",
@@ -97,6 +92,16 @@
             ],
             "source": "data.csv",
             "target": "kmeans.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "LogisticRegression.R"
         }
     ],
     "nodes": [
@@ -161,6 +166,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:07:04",
+    "updated_at": "2018-10-25 16:07:09",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
