@@ -71,16 +71,6 @@
                 }
             ],
             "source": "data.csv",
-            "target": "Exploring_data.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "data.csv",
             "target": "chitesting.R"
         },
         {
@@ -92,6 +82,16 @@
             ],
             "source": "data.csv",
             "target": "MultiRegression.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "Exploring_data.R"
         }
     ],
     "nodes": [
@@ -156,6 +156,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:06:51",
+    "updated_at": "2018-10-25 16:06:56",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
