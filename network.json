@@ -66,11 +66,6 @@
         {
             "ports": [],
             "source": "outlierTest.R",
-            "target": "LogisticRegression.R"
-        },
-        {
-            "ports": [],
-            "source": "outlierTest.R",
             "target": "kmeans.R"
         },
         {
@@ -82,6 +77,17 @@
             "ports": [],
             "source": "outlierTest.R",
             "target": "chitesting.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "outlierTest.R",
+            "target": "LogisticRegression.R"
         }
     ],
     "nodes": [
@@ -152,6 +158,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:12:56",
+    "updated_at": "2018-10-25 16:13:09",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
