@@ -123,12 +123,6 @@
             "task_status": "not started"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "Multiple Linear regression analysis",
-            "name": "script5926.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "sahmed",
             "desc": "Customer Segmentation and clustering using K-means",
             "name": "kmeans.R",
@@ -139,8 +133,14 @@
             "desc": "Chi Testing",
             "name": "chitesting.R",
             "task_status": "not started"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "MultipleLinearRegression analysis",
+            "name": "script5926.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 15:54:49",
+    "updated_at": "2018-10-25 15:55:07",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
