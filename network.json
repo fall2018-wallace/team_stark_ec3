@@ -104,8 +104,12 @@
         {
             "desc": "Multiple Linear regression analysis",
             "name": "script5926.R"
+        },
+        {
+            "desc": "Chi Testing",
+            "name": "script6275.R"
         }
     ],
-    "updated_at": "2018-10-25 15:08:48",
+    "updated_at": "2018-10-25 15:09:04",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
