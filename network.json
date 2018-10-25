@@ -61,26 +61,26 @@
         {
             "ports": [],
             "source": "data.csv",
-            "target": "script6471.R"
+            "target": "outlierTest.R"
         },
         {
             "ports": [],
-            "source": "script6471.R",
+            "source": "outlierTest.R",
             "target": "LogisticRegression.R"
         },
         {
             "ports": [],
-            "source": "script6471.R",
+            "source": "outlierTest.R",
             "target": "kmeans.R"
         },
         {
             "ports": [],
-            "source": "script6471.R",
+            "source": "outlierTest.R",
             "target": "MultiRegression.R"
         },
         {
             "ports": [],
-            "source": "script6471.R",
+            "source": "outlierTest.R",
             "target": "chitesting.R"
         }
     ],
@@ -146,10 +146,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "xsong21",
             "desc": "",
-            "name": "script6471.R"
+            "name": "outlierTest.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:12:25",
+    "updated_at": "2018-10-25 16:12:56",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
