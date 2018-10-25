@@ -99,12 +99,6 @@
             "name": "plot3285.png"
         },
         {
-            "assigned_to": "sahmed",
-            "desc": "",
-            "name": "clean.R",
-            "task_status": "proposed"
-        },
-        {
             "assigned_to": "not assigned",
             "desc": "Exploring the data. calculating the spread, central tendency",
             "name": "Exploring_data.R",
@@ -139,8 +133,14 @@
             "desc": "MultipleLinearRegression analysis",
             "name": "MultiRegression.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 15:55:54",
+    "updated_at": "2018-10-25 15:56:50",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
