@@ -113,8 +113,12 @@
         {
             "desc": "Chi Testing",
             "name": "script6275.R"
+        },
+        {
+            "desc": "Customer Segmentation and clustering using K-means",
+            "name": "script8431.R"
         }
     ],
-    "updated_at": "2018-10-25 15:09:12",
+    "updated_at": "2018-10-25 15:09:51",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
