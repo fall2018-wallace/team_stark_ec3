@@ -67,6 +67,11 @@
             "ports": [],
             "source": "data.csv",
             "target": "script6275.R"
+        },
+        {
+            "ports": [],
+            "source": "data.csv",
+            "target": "script2589.R"
         }
     ],
     "nodes": [
@@ -123,6 +128,6 @@
             "name": "script2589.R"
         }
     ],
-    "updated_at": "2018-10-25 15:10:06",
+    "updated_at": "2018-10-25 15:10:13",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
