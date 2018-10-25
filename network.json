@@ -71,7 +71,7 @@
         {
             "ports": [
                 {
-                    "output": "clean_data",
+                    "output": "data",
                     "type": "csv"
                 }
             ],
@@ -141,6 +141,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:05:18",
+    "updated_at": "2018-10-25 16:06:35",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
