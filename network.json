@@ -117,10 +117,6 @@
             "task_status": "not started"
         },
         {
-            "desc": "Multiple Linear regression analysis",
-            "name": "script5926.R"
-        },
-        {
             "desc": "Chi Testing",
             "name": "script6275.R"
         },
@@ -131,8 +127,14 @@
         {
             "desc": "Logistic regression",
             "name": "script2589.R"
+        },
+        {
+            "assigned_to": "beallen",
+            "desc": "Multiple Linear regression analysis",
+            "name": "script5926.R",
+            "task_status": "not started"
         }
     ],
-    "updated_at": "2018-10-25 15:10:19",
+    "updated_at": "2018-10-25 15:10:37",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
