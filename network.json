@@ -112,6 +112,11 @@
             "ports": [],
             "source": "data.csv",
             "target": "script6471.R"
+        },
+        {
+            "ports": [],
+            "source": "script6471.R",
+            "target": "LogisticRegression.R"
         }
     ],
     "nodes": [
@@ -180,6 +185,6 @@
             "name": "script6471.R"
         }
     ],
-    "updated_at": "2018-10-25 16:10:25",
+    "updated_at": "2018-10-25 16:10:45",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
