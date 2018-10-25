@@ -49,16 +49,6 @@
             "target": "data.csv"
         },
         {
-            "ports": [
-                {
-                    "input": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "data.csv",
-            "target": "Exploring_data.R"
-        },
-        {
             "ports": [],
             "source": "data.csv",
             "target": "outlierTest.R"
@@ -106,6 +96,16 @@
             ],
             "source": "outlierTest.R",
             "target": "kmeans.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "Exploring_data.R"
         }
     ],
     "nodes": [
@@ -176,6 +176,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:13:41",
+    "updated_at": "2018-10-25 16:13:50",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
