@@ -121,10 +121,6 @@
             "name": "script6275.R"
         },
         {
-            "desc": "Customer Segmentation and clustering using K-means",
-            "name": "script8431.R"
-        },
-        {
             "desc": "Logistic regression",
             "name": "script2589.R"
         },
@@ -133,8 +129,14 @@
             "desc": "Multiple Linear regression analysis",
             "name": "script5926.R",
             "task_status": "not started"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Customer Segmentation and clustering using K-means",
+            "name": "script8431.R",
+            "task_status": "not started"
         }
     ],
-    "updated_at": "2018-10-25 15:10:37",
+    "updated_at": "2018-10-25 15:10:50",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
