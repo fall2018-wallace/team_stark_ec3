@@ -57,6 +57,11 @@
             "ports": [],
             "source": "EDA.R",
             "target": "plot3285.png"
+        },
+        {
+            "ports": [],
+            "source": "data.csv",
+            "target": "script5926.R"
         }
     ],
     "nodes": [
@@ -101,6 +106,6 @@
             "name": "script5926.R"
         }
     ],
-    "updated_at": "2018-10-25 15:08:17",
+    "updated_at": "2018-10-25 15:08:48",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
