@@ -71,7 +71,7 @@
         {
             "ports": [],
             "source": "data.csv",
-            "target": "script2589.R"
+            "target": "LogisticRegression.R"
         },
         {
             "ports": [],
@@ -117,12 +117,6 @@
             "task_status": "not started"
         },
         {
-            "assigned_to": "beallen",
-            "desc": "Logistic regression",
-            "name": "script2589.R",
-            "task_status": "not started"
-        },
-        {
             "assigned_to": "sahmed",
             "desc": "Customer Segmentation and clustering using K-means",
             "name": "kmeans.R",
@@ -139,8 +133,14 @@
             "desc": "MultipleLinearRegression analysis",
             "name": "script5926.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "beallen",
+            "desc": "Logistic regression",
+            "name": "LogisticRegression.R",
+            "task_status": "not started"
         }
     ],
-    "updated_at": "2018-10-25 15:55:07",
+    "updated_at": "2018-10-25 15:55:31",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
