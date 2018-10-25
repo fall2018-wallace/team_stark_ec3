@@ -122,6 +122,11 @@
             "ports": [],
             "source": "script6471.R",
             "target": "kmeans.R"
+        },
+        {
+            "ports": [],
+            "source": "MultiRegression.R",
+            "target": "script6471.R"
         }
     ],
     "nodes": [
@@ -190,6 +195,6 @@
             "name": "script6471.R"
         }
     ],
-    "updated_at": "2018-10-25 16:10:56",
+    "updated_at": "2018-10-25 16:11:08",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
