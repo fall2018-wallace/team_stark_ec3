@@ -2,7 +2,9 @@
     "collaborators": [
         "sahmed",
         "agauribi",
-        "spachika"
+        "spachika",
+        "xsong21",
+        "beallen"
     ],
     "created_at": "2018-10-10 00:10:00",
     "edges": [
@@ -15,26 +17,6 @@
             ],
             "source": "satisfactionSurvey.csv",
             "target": "clean.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "clean_data",
-                    "type": "csv"
-                }
-            ],
-            "source": "clean.R",
-            "target": "data.csv"
-        },
-        {
-            "ports": [],
-            "source": "data.csv",
-            "target": "Exploring_data.R"
-        },
-        {
-            "ports": [],
-            "source": "data.csv",
-            "target": "EDA.R"
         },
         {
             "ports": [],
@@ -55,6 +37,76 @@
             "ports": [],
             "source": "EDA.R",
             "target": "plot3285.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "clean.R",
+            "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "chitesting.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "MultiRegression.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "Exploring_data.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "LogisticRegression.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "kmeans.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "data.csv",
+            "target": "EDA.R"
         }
     ],
     "nodes": [
@@ -62,20 +114,7 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "assigned_to": "sahmed",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "data.csv"
-        },
-        {
-            "desc": "Exploring the data. calculating the spread, central tendency",
-            "name": "Exploring_data.R"
-        },
-        {
-            "desc": "Performing explanatory data analysis",
-            "name": "EDA.R"
         },
         {
             "name": "plot461.png"
@@ -88,8 +127,50 @@
         },
         {
             "name": "plot3285.png"
+        },
+        {
+            "assigned_to": "not assigned",
+            "desc": "Performing explanatory data analysis",
+            "name": "EDA.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "xsong21",
+            "desc": "Chi Testing",
+            "name": "chitesting.R",
+            "task_status": "not started"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "MultipleLinearRegression analysis",
+            "name": "MultiRegression.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "spachika",
+            "desc": "Exploring the data. calculating the spread, central tendency",
+            "name": "Exploring_data.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
+            "name": "clean.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Customer Segmentation and clustering using K-means",
+            "name": "kmeans.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "beallen",
+            "desc": "Logistic regression",
+            "name": "LogisticRegression.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-11 04:02:13",
+    "updated_at": "2018-10-25 16:07:27",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
