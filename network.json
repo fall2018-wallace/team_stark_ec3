@@ -105,12 +105,6 @@
             "task_status": "not started"
         },
         {
-            "assigned_to": "sahmed",
-            "desc": "Customer Segmentation and clustering using K-means",
-            "name": "kmeans.R",
-            "task_status": "not started"
-        },
-        {
             "assigned_to": "xsong21",
             "desc": "Chi Testing",
             "name": "chitesting.R",
@@ -139,8 +133,14 @@
             "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Customer Segmentation and clustering using K-means",
+            "name": "kmeans.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:01:02",
+    "updated_at": "2018-10-25 16:01:16",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
