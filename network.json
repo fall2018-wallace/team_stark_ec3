@@ -117,8 +117,12 @@
         {
             "desc": "Customer Segmentation and clustering using K-means",
             "name": "script8431.R"
+        },
+        {
+            "desc": "Logistic regression",
+            "name": "script2589.R"
         }
     ],
-    "updated_at": "2018-10-25 15:09:51",
+    "updated_at": "2018-10-25 15:10:06",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
