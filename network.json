@@ -169,8 +169,12 @@
             "desc": "Logistic regression",
             "name": "LogisticRegression.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "script6471.R"
         }
     ],
-    "updated_at": "2018-10-25 16:07:27",
+    "updated_at": "2018-10-25 16:09:39",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
