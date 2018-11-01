@@ -93,6 +93,16 @@
             ],
             "source": "clean.R",
             "target": "Exploring_data.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "airport_shopping",
+                    "type": "png"
+                }
+            ],
+            "source": "outlierTest.R",
+            "target": "Shopping.Amount.at.Airport.png"
         }
     ],
     "nodes": [
@@ -151,6 +161,6 @@
             "name": "Shopping.Amount.at.Airport.png"
         }
     ],
-    "updated_at": "2018-11-01 15:48:20",
+    "updated_at": "2018-11-01 15:49:29",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
