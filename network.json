@@ -126,7 +126,7 @@
         {
             "ports": [
                 {
-                    "input": "data",
+                    "input": "outlier_data",
                     "output": "outlier_data",
                     "type": "r_obj"
                 }
@@ -200,6 +200,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-01 16:00:35",
+    "updated_at": "2018-11-01 16:00:56",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
