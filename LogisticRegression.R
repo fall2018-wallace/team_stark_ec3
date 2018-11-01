@@ -12,5 +12,6 @@ GLM1 <- glm(satlevel ~ Airline.Status +Age+ Gender +Price.Sensitivity+
     + Type.of.Travel+No..of.other.Loyalty.Cards +Shopping.Amount.at.Airport
     +  Eating.and.Drinking.at.Airport  +  Class Day.of.Month+ Flight.date Airline.Code
     +Airline.Name+Scheduled.Departure.Hour+ Departure.Delay.in.Minutes+
-    Arrival.Delay.in.Minutes +Flight.cancelled Flight.time.in.minutes,
-    data = mydata, family = "binomial")
+    Arrival.Delay.in.Minutes +Flight.cancelled Flight.time.in.minutes
+    +Flight.Distance +Arrival.Delay.greater.5.Mins ,
+    data = -satSuv, family = "binomial")
