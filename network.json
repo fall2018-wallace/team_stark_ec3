@@ -101,17 +101,6 @@
             ],
             "source": "outlierTest.R",
             "target": "MultiRegression.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "outlierTest.R",
-            "target": "Logit.R"
         }
     ],
     "nodes": [
@@ -168,12 +157,8 @@
             "desc": "summary test to understand more about the data",
             "name": "outlierTest.R",
             "task_status": "in progress"
-        },
-        {
-            "desc": "",
-            "name": "Logit.R"
         }
     ],
-    "updated_at": "2018-11-01 15:12:23",
+    "updated_at": "2018-11-01 15:20:55",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
