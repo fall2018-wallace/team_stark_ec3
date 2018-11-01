@@ -113,6 +113,16 @@
             ],
             "source": "outlierTest.R",
             "target": "eat_and_drink_airport.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "day_of_month",
+                    "type": "png"
+                }
+            ],
+            "source": "clean.R",
+            "target": "day_of_month.png"
         }
     ],
     "nodes": [
@@ -177,6 +187,6 @@
             "name": "day_of_month.png"
         }
     ],
-    "updated_at": "2018-11-01 15:53:24",
+    "updated_at": "2018-11-01 15:53:37",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
