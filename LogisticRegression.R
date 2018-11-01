@@ -7,3 +7,4 @@ satSuv$satlevel[satSuv$Satisfaction >3.5] <- 'high'
 head(satSuv)
 
 satSuv<-satSuv[satSuv&satSuv$satlevel == 'median']
+head(satSuv)
