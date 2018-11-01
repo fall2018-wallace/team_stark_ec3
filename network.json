@@ -188,18 +188,18 @@
             "name": "plot_linear.png"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "MultipleLinearRegression analysis",
-            "name": "MultiRegression.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "beallen",
             "desc": "summary test to understand more about the data",
             "name": "outlierTest.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "MultipleLinearRegression analysis",
+            "name": "MultiRegression.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-01 16:00:56",
+    "updated_at": "2018-11-01 16:01:20",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
