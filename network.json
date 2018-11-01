@@ -121,23 +121,23 @@
         {
             "ports": [
                 {
-                    "input": "outlier_data",
-                    "output": "outlier_data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "outlierTest.R",
-            "target": "MultiRegression.R"
-        },
-        {
-            "ports": [
-                {
                     "output": "o",
                     "type": "png"
                 }
             ],
             "source": "Exploring_data.R",
             "target": "plot461.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "outlierTest.R",
+            "target": "MultiRegression.R"
         }
     ],
     "nodes": [
@@ -205,6 +205,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-01 16:02:57",
+    "updated_at": "2018-11-01 16:03:41",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
