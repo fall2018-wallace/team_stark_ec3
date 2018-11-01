@@ -3,6 +3,7 @@
 #getwd()
 #satSuv <- read.csv(file="satisfactionSurvey.csv", header=TRUE, sep=",",stringsAsFactors = FALSE)
 satSuv<-data
+
 satSuv$satlevel[satSuv$Satisfaction <2.5] <- 'low'
 satSuv$satlevel[satSuv$Satisfaction >2 & satSuv$Satisfaction <4] <- 'median'
 satSuv$satlevel[satSuv$Satisfaction >3.5] <- 'high'
