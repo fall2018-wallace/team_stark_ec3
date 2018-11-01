@@ -7,7 +7,7 @@ head(clean_data)
 ## https://stackoverflow.com/questions/12763890/exclude-blank-and-na-in-r
 
 #satSurvey<-read.csv("satisfactionSurvey.csv")
-satSurvey <- clean_data, na.strings=c("", "NA"))
+satSurvey <- clean_data, na.strings=c("", "NA")
 #satSurvey[!complete.cases(satSurvey),]
 colSums(is.na(satSurvey))
 satSurvey<-na.omit(satSurvey)
