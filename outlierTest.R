@@ -1,7 +1,7 @@
 
 #store clean_data in data frame
 satSurvey <- clean_data
-
+clean_data
 hist(satSurvey$Shopping.Amount.at.Airport)#noticed that choosing outliers 
 # is not an effective method.
 
