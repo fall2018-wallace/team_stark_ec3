@@ -6,7 +6,7 @@ data<- satSurvey
 airport_shopping<-hist(satSurvey$Shopping.Amount.at.Airport)#noticed that choosing outliers 
 # is not an effective method since no possible outlier detected.
 
-eat_drink_airport<-hist(satSurvey$Eating.and.Drinking.at.Airport, bins=5, xlim = range(200), ylim=NULL)
+eat_and_drink_airport<-hist(satSurvey$Eating.and.Drinking.at.Airport, bins=5, xlim = range(200), ylim=NULL)
 # #noticed that choosing outliers is not an effective method.
 
 
