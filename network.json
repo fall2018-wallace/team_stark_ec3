@@ -170,12 +170,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "beallen",
-            "desc": "summary test to understand more about the data",
-            "name": "outlierTest.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "sahmed",
             "desc": "Exploring the data. calculating the spread, central tendency",
             "name": "Exploring_data.R",
@@ -198,8 +192,14 @@
             "desc": "MultipleLinearRegression analysis",
             "name": "MultiRegression.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "beallen",
+            "desc": "summary test to understand more about the data",
+            "name": "outlierTest.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-01 15:58:42",
+    "updated_at": "2018-11-01 15:59:16",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
