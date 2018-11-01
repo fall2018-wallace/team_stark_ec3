@@ -121,7 +121,7 @@
                     "type": "png"
                 }
             ],
-            "source": "clean.R",
+            "source": "outlierTest.R",
             "target": "day_of_month.png"
         }
     ],
@@ -187,6 +187,6 @@
             "name": "day_of_month.png"
         }
     ],
-    "updated_at": "2018-11-01 15:53:37",
+    "updated_at": "2018-11-01 15:54:03",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
