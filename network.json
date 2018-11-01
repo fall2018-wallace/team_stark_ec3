@@ -59,17 +59,6 @@
                 }
             ],
             "source": "outlierTest.R",
-            "target": "MultiRegression.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "outlierTest.R",
             "target": "kmeans.R"
         },
         {
@@ -101,6 +90,17 @@
             ],
             "source": "clean.R",
             "target": "data.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "outlierTest.R",
+            "target": "MultiRegression.R"
         }
     ],
     "nodes": [
@@ -120,7 +120,7 @@
             "assigned_to": "xsong21",
             "desc": "Chi Testing",
             "name": "chitesting.R",
-            "task_status": "not started"
+            "task_status": "in progress"
         },
         {
             "assigned_to": "agauribi",
@@ -159,6 +159,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-10-25 16:14:48",
+    "updated_at": "2018-11-01 02:44:53",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
