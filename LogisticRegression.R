@@ -8,3 +8,4 @@ head(satSuv)
 
 satSuv<-satSuv[satSuv$satlevel != 'median',]
 head(satSuv)
+tail(satSuv)
