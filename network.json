@@ -203,8 +203,11 @@
             "desc": "MultipleLinearRegression analysis",
             "name": "MultiRegression.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "Sample.csv"
         }
     ],
-    "updated_at": "2018-11-01 16:04:51",
+    "updated_at": "2018-11-01 16:13:13",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
