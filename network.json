@@ -157,8 +157,12 @@
             "desc": "summary test to understand more about the data",
             "name": "outlierTest.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "Logit.R"
         }
     ],
-    "updated_at": "2018-11-01 03:51:39",
+    "updated_at": "2018-11-01 15:12:06",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
