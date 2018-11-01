@@ -146,8 +146,11 @@
             "desc": "Exploring the data. calculating the spread, central tendency",
             "name": "Exploring_data.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "Shopping.Amount.at.Airport.png"
         }
     ],
-    "updated_at": "2018-11-01 15:43:07",
+    "updated_at": "2018-11-01 15:48:20",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
