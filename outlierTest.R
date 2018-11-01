@@ -1,6 +1,5 @@
 
 satSurvey <- clean_data
-na.omit(satSurvey)
 #satSurvey[!complete.cases(satSurvey),]
 colSums(is.na(satSurvey))
 satSurvey<-na.omit(satSurvey)
