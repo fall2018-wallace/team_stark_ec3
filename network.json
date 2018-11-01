@@ -172,8 +172,11 @@
         },
         {
             "name": "eat_and_drink_airport.png"
+        },
+        {
+            "name": "day_of_month.png"
         }
     ],
-    "updated_at": "2018-11-01 15:52:52",
+    "updated_at": "2018-11-01 15:53:24",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
