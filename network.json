@@ -138,6 +138,16 @@
             ],
             "source": "outlierTest.R",
             "target": "MultiRegression.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "outlierTest.R",
+            "target": "Sample.csv"
         }
     ],
     "nodes": [
@@ -208,6 +218,6 @@
             "name": "Sample.csv"
         }
     ],
-    "updated_at": "2018-11-01 16:13:13",
+    "updated_at": "2018-11-01 16:13:25",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
