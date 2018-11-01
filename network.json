@@ -71,6 +71,17 @@
             ],
             "source": "outlierTest.R",
             "target": "MultiRegression.R"
+        },
+        {
+            "ports": [
+                {
+                    "input": "clean_data",
+                    "output": "clean_data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "clean.R",
+            "target": "outlierTest.R"
         }
     ],
     "nodes": [
@@ -126,6 +137,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-01 15:42:18",
+    "updated_at": "2018-11-01 15:42:55",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
