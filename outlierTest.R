@@ -3,7 +3,7 @@
 satSurvey <- clean_data
 
 hist(satSurvey$Shopping.Amount.at.Airport)#noticed that choosing outliers 
-# is not an effective method.
+# is not an effective method since no possible outlier detected.
 
 hist(satSurvey$Eating.and.Drinking.at.Airport, bins=5, xlim = range(200), ylim=NULL)
 # #noticed that choosing outliers is not an effective method.
