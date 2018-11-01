@@ -3,14 +3,14 @@
 satSurvey <- clean_data
 data<- satSurvey
 
-hist(satSurvey$Shopping.Amount.at.Airport)#noticed that choosing outliers 
+airport_shopping<-hist(satSurvey$Shopping.Amount.at.Airport)#noticed that choosing outliers 
 # is not an effective method since no possible outlier detected.
 
-hist(satSurvey$Eating.and.Drinking.at.Airport, bins=5, xlim = range(200), ylim=NULL)
+eat_and_drink_airport<-hist(satSurvey$Eating.and.Drinking.at.Airport, bins=5, xlim = range(200), ylim=NULL)
 # #noticed that choosing outliers is not an effective method.
 
 
-hist(satSurvey$Day.of.Month)
+day_of_month<-hist(satSurvey$Day.of.Month)
 
 
 ### How to understand the data better
