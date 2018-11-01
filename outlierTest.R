@@ -1,10 +1,7 @@
 
+#store clean_data in data frame
 satSurvey <- clean_data
-#satSurvey[!complete.cases(satSurvey),]
-colSums(is.na(satSurvey))
-satSurvey<-na.omit(satSurvey)
-colSums(is.na(satSurvey))
-str(satSurvey)
+
 hist(satSurvey$Shopping.Amount.at.Airport)#noticed that choosing outliers 
 # is not an effective method.
 
