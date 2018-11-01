@@ -1,5 +1,5 @@
 
-dataframe1 <- outlier_data
+dataframe1 <- data
 
 dataframe1$satisfaction_numeric <- as.numeric(as.character(dataframe1$Satisfaction))
 
