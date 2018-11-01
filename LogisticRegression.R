@@ -7,4 +7,5 @@ satSuv$satlevel[satSuv$Satisfaction >3.5] <- 'high'
 head(satSuv)
 
 satSuv<-satSuv[satSuv$satlevel != 'median',]
-GLM1 <- glm(satlevel ~ Airline.Status +Age+ Gender +Price.Sensitivity+ Year.of.First.Flight, data = mydata, family = "binomial")
+GLM1 <- glm(satlevel ~ Airline.Status +Age+ Gender +Price.Sensitivity+ 
+    Year.of.First.Flight+ No.of.Flights.p.a. +X..of.Flight.with.other.Airlines + Type.of.Travel, data = mydata, family = "binomial")
