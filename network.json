@@ -158,16 +158,6 @@
         {
             "ports": [
                 {
-                    "output": "hist1",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploring_data.R",
-            "target": "plot2683.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "plot1",
                     "type": "png"
                 }
@@ -214,6 +204,16 @@
             ],
             "source": "MultiRegression.R",
             "target": "plot_linear.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar2",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploring_data.R",
+            "target": "plot2683.png"
         }
     ],
     "nodes": [
@@ -305,6 +305,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 17:15:50",
+    "updated_at": "2018-11-08 17:16:04",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
