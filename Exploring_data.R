@@ -1,6 +1,7 @@
 
 clean_data$Age
 str(clean_data)
+summary(clean_data)
 
 #importing library for ggplot2
 library("ggplot2")
