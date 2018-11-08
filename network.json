@@ -212,8 +212,11 @@
             "desc": "Customer Segmentation and clustering using K-means",
             "name": "Clustering.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "plot6715.png"
         }
     ],
-    "updated_at": "2018-11-08 16:32:21",
+    "updated_at": "2018-11-08 16:34:52",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
