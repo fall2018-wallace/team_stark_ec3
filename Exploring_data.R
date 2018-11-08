@@ -13,11 +13,12 @@ my_Plot <- my_Plot + geom_histogram(binwidth = 5)
 my_Plot <- my_Plot + ggtitle("Histogram of age")
 my_Plot
 
-
-my_Plot <- ggplot(clean_data, aes(x=Age))
-my_Plot <- my_Plot + geom_histogram(binwidth = 5)
-my_Plot <- my_Plot + ggtitle("Histogram of age")
-my_Plot
+# Histogram for the satisfaction
+ 
+hist1 <- ggplot(clean_data, aes(x=Satisfaction))
+hist1 <- hist1 + geom_histogram(binwidth = 0.5)
+hist1 <- hist1 + ggtitle("Histogram of satisfaction")
+hist1
 
 
 
