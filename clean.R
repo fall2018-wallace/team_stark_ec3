@@ -1,5 +1,4 @@
 
-head(raw_data)
 sum(is.na(raw_data))
 sum(is.null(raw_data))
 colnames(raw_data)[colSums(is.na(raw_data)) > 0]
