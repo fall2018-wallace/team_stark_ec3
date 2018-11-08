@@ -281,12 +281,6 @@
             "name": "plot2683.png"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "MultipleLinearRegression analysis",
-            "name": "MultiRegression.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "plot1.png"
         },
         {
@@ -303,8 +297,14 @@
             "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
             "name": "clean.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "MultipleLinearRegression analysis",
+            "name": "MultiRegression.R",
+            "task_status": "validating"
         }
     ],
-    "updated_at": "2018-11-08 17:16:04",
+    "updated_at": "2018-11-08 17:19:41",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
