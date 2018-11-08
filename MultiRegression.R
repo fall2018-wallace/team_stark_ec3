@@ -57,9 +57,6 @@ data$Arrival.Delay.greater.5.Mins <- unclass(delay_five)
 
 
 
-plot <- ggplot(data,aes(jitter(Airline.Status), Satisfaction))+ geom_point()  # ggplot function is called with 2 paraments the data source and the aes aesthetic mapping of hotelsize and overalcustomer satisfaction. These go into respective x and y axis.
-plot  
-
 str(data)
 options(scipen = 999)                             # options(scipen =999) is used to eliminate the scintific notation representaiton and to get floating point representation.
 predictor_model_airline_status <- lm(data$Satisfaction~data$Airline.Status , data = data)
@@ -67,6 +64,8 @@ predictor_model_airline_status <- lm(data$Satisfaction~data$Airline.Status , dat
 # the data source which is data frame data
 summary(predictor_model_airline_status)
 
+plot <- ggplot(data,aes(jitter(Airline.Status), Satisfaction))+ geom_point()  # ggplot function is called with 2 paraments the data source and the aes aesthetic mapping of hotelsize and overalcustomer satisfaction. These go into respective x and y axis.
+plot
 
 
 predictor_model_type_of_travel <- lm(data$Satisfaction~data$Type.of.Travel , data = data)
