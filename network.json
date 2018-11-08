@@ -106,16 +106,6 @@
         {
             "ports": [
                 {
-                    "output": "graph",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot_linear.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "data",
                     "type": "csv"
                 }
@@ -164,6 +154,66 @@
             ],
             "source": "Exploring_data.R",
             "target": "plot256.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "hist1",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploring_data.R",
+            "target": "plot2683.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot1",
+                    "type": "png"
+                }
+            ],
+            "source": "MultiRegression.R",
+            "target": "plot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot2",
+                    "type": "png"
+                }
+            ],
+            "source": "MultiRegression.R",
+            "target": "plot2.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot3",
+                    "type": "png"
+                }
+            ],
+            "source": "MultiRegression.R",
+            "target": "plot3.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot4",
+                    "type": "png"
+                }
+            ],
+            "source": "MultiRegression.R",
+            "target": "plot4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot",
+                    "type": "png"
+                }
+            ],
+            "source": "MultiRegression.R",
+            "target": "plot_linear.png"
         }
     ],
     "nodes": [
@@ -198,12 +248,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "MultipleLinearRegression analysis",
-            "name": "MultiRegression.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "spachika",
             "desc": "Exploring the data. calculating the spread, central tendency",
             "name": "Exploring_data.R",
@@ -234,12 +278,33 @@
             "name": "plot256.png"
         },
         {
+            "name": "plot2683.png"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "MultipleLinearRegression analysis",
+            "name": "MultiRegression.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot1.png"
+        },
+        {
+            "name": "plot2.png"
+        },
+        {
+            "name": "plot3.png"
+        },
+        {
+            "name": "plot4.png"
+        },
+        {
             "assigned_to": "sahmed",
             "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
             "name": "clean.R",
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 17:04:40",
+    "updated_at": "2018-11-08 17:15:50",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
