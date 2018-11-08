@@ -5,3 +5,4 @@ sum(is.null(raw_data))
 clean_data<- na.omit(raw_data)
 sum(is.na(clean_data))
 clean_data
+length(raw_data)
