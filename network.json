@@ -148,6 +148,17 @@
             ],
             "source": "outlierTest.R",
             "target": "Sample.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "outlierTest.R",
+            "target": "AssociationMine.R"
         }
     ],
     "nodes": [
@@ -224,6 +235,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 11:49:10",
+    "updated_at": "2018-11-08 11:49:24",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
