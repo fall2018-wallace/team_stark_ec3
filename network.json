@@ -188,7 +188,7 @@
         {
             "ports": [
                 {
-                    "output": "plot1",
+                    "output": "plot2",
                     "type": "png"
                 }
             ],
@@ -285,6 +285,6 @@
             "name": "plot4.png"
         }
     ],
-    "updated_at": "2018-11-08 17:13:52",
+    "updated_at": "2018-11-08 17:14:02",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
