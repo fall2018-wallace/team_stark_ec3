@@ -153,7 +153,7 @@
         {
             "ports": [
                 {
-                    "output": "o",
+                    "output": "my_Plot",
                     "type": "png"
                 }
             ],
@@ -235,6 +235,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 16:30:06",
+    "updated_at": "2018-11-08 16:30:19",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
