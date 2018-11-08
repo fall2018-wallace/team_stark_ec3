@@ -1,5 +1,5 @@
 
-clean_data
+clean_data$Age
 str(clean_data)
 
 #importing library for ggplot2
