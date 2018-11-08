@@ -5,6 +5,7 @@ satSuv$satlevel[satSuv$Satisfaction <3] <- 'low'
 satSuv$satlevel[satSuv$Satisfaction ==3] <- 'median'
 satSuv$satlevel[satSuv$Satisfaction >3] <- 'high'
 satSuv<-satSuv[satSuv$satlevel != 'median',]
+
 satSuv$Airline.Status<-as.factor(satSuv$Airline.Status)
 satSuv$Gender<-as.factor(satSuv$Gender)
 satSuv$Type.of.Travel<-as.factor(satSuv$Type.of.Travel)
@@ -12,8 +13,8 @@ satSuv$Class <-as.factor(satSuv$Class)
 satSuv$Airline.Code <-as.factor(satSuv$Airline.Code)
 satSuv$Airline.Name<-as.factor(satSuv$Airline.Name)
 satSuv$Flight.cancelled<-as.factor(satSuv$Flight.cancelled)
-
-
+satSuv$Arrival.Delay.greater.5.Mins<-as.factor(satSuv$Arrival.Delay.greater.5.Mins)
+satSuv$satlevel <-as.factor(satSuv$satlevel)
 
 
 str(satSuv)
