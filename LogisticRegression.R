@@ -10,6 +10,10 @@ satSuv$Gender<-as.factor(satSuv$Gender)
 satSuv$Type.of.Travel<-as.factor(satSuv$Type.of.Travel)
 satSuv$Class <-as.factor(satSuv$Class)
 satSuv$Airline.Code <-as.factor(satSuv$Airline.Code)
+satSuv$Airline.Name<-as.factor(satSuv$Airline.Name)
+
+
+
 
 str(satSuv)
 GLM1 <- glm(satlevel ~ Airline.Status +Age+ Gender +Price.Sensitivity+ 
