@@ -106,16 +106,6 @@
         {
             "ports": [
                 {
-                    "output": "graph",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot_linear.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "data",
                     "type": "csv"
                 }
@@ -214,6 +204,16 @@
             ],
             "source": "MultiRegression.R",
             "target": "plot4.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot",
+                    "type": "png"
+                }
+            ],
+            "source": "MultiRegression.R",
+            "target": "plot_linear.png"
         }
     ],
     "nodes": [
@@ -305,6 +305,6 @@
             "name": "plot4.png"
         }
     ],
-    "updated_at": "2018-11-08 17:14:23",
+    "updated_at": "2018-11-08 17:14:34",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
