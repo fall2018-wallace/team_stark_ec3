@@ -1,6 +1,6 @@
 
-options(stringsAsFactors = TRUE)
-satSuv<-data
+satSuv <- data.frame(data, stringsAsFactors=TRUE)
+#satSuv<-data
 
 satSuv$satlevel[satSuv$Satisfaction <3] <- 'low'
 satSuv$satlevel[satSuv$Satisfaction ==3] <- 'median'
