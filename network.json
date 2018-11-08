@@ -218,10 +218,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "agauribi",
             "desc": "Association Rules",
-            "name": "AssociationMine.R"
+            "name": "AssociationMine.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 11:48:49",
+    "updated_at": "2018-11-08 11:49:10",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
