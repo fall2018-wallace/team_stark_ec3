@@ -19,11 +19,6 @@
             "target": "clean.R"
         },
         {
-            "ports": [],
-            "source": "Exploring_data.R",
-            "target": "plot7577.png"
-        },
-        {
             "ports": [
                 {
                     "input": "data",
@@ -156,9 +151,6 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "name": "plot7577.png"
-        },
-        {
             "assigned_to": "xsong21",
             "desc": "Chi Testing",
             "name": "chitesting.R",
@@ -222,6 +214,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 16:32:09",
+    "updated_at": "2018-11-08 16:32:21",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
