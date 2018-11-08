@@ -73,6 +73,8 @@ predictor_model_type_of_travel <- lm(data$Satisfaction~data$Type.of.Travel , dat
 # the data source which is data frame data
 summary(predictor_model_type_of_travel)
 
+plot1 <- ggplot(data,aes(jitter(Type.of.Travel), Satisfaction))+ geom_point()  # ggplot function is called with 2 paraments the data source and the aes aesthetic mapping of hotelsize and overalcustomer satisfaction. These go into respective x and y axis.
+plot1
 
 
 predictor_model_age <- lm(data$Satisfaction~data$Age , data = data)
