@@ -1,5 +1,5 @@
 
-satSuv <- data.frame(data, stringsAsFactors=TRUE)
+satSuv <- as.factor(data)
 #satSuv<-data
 
 satSuv$satlevel[satSuv$Satisfaction <3] <- 'low'
