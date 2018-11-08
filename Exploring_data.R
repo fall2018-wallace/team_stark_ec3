@@ -19,7 +19,7 @@ my_Plot
 #generating a barchart for age and satisfaction
 
 
-bar1 <- ggplot(clean_data, aes(x=Age, y=satisfaction))
+bar1 <- ggplot(clean_data, aes(x=Age, y=Satisfaction))
 bar1 <- bar1 + geom_col()
 bar1 <- bar1 + ggtitle("Bar chart for age vs satisfaction")
 bar1
