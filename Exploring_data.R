@@ -15,10 +15,10 @@ my_Plot
 
 # Histogram for the satisfaction
  
-hist1 <- ggplot(clean_data, aes(x=Satisfaction))
-hist1 <- hist1 + geom_histogram(binwidth = 0.5)
-hist1 <- hist1 + ggtitle("Histogram of satisfaction")
-hist1
+bar2<- ggplot(clean_data, aes(x=Class, y=Satisfaction))
+bar2<- bar2 + geom_col()
+bar2 <- bar2 + ggtitle("Bar chart for age vs satisfaction")
+bar2
 
 
 
