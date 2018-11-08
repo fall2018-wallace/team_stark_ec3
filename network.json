@@ -217,12 +217,6 @@
         },
         {
             "assigned_to": "xsong21",
-            "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "xsong21",
             "desc": "Logistic regression",
             "name": "LogisticRegression.R",
             "task_status": "in progress"
@@ -238,8 +232,14 @@
         },
         {
             "name": "plot256.png"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 16:55:30",
+    "updated_at": "2018-11-08 17:04:40",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
