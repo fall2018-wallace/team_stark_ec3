@@ -1,11 +1,5 @@
 
-setwd("D:/Workspace Syracuse/Intro to Data Science") 
-data <- data.frame(read.csv("satisfactionSurvey.csv"))
 
-AQ2 <- data
-AQ2[is.na(AQ2)] <- 0
-
-str(data)  
 
 library(ggplot2)
 Status <- as.factor(data$Airline.Status)                                                # type safing it so that state is taken as factors for conversion
