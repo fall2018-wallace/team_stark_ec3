@@ -23,5 +23,5 @@ GLM1 <- glm(satlevel ~ Airline.Status +Age+ Gender +Price.Sensitivity+
     Scheduled.Departure.Hour+ Departure.Delay.in.Minutes+
     Arrival.Delay.in.Minutes +Flight.cancelled +Flight.time.in.minutes+
     Flight.Distance +Arrival.Delay.greater.5.Mins ,
-    data = satSuv, family = "binomial")
+    data = satSuv, family = binomial(link="logit"))
 summary(GLM1)
