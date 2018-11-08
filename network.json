@@ -19,11 +19,6 @@
             "target": "clean.R"
         },
         {
-            "ports": [],
-            "source": "Exploring_data.R",
-            "target": "plot7577.png"
-        },
-        {
             "ports": [
                 {
                     "input": "data",
@@ -54,7 +49,7 @@
                 }
             ],
             "source": "outlierTest.R",
-            "target": "kmeans.R"
+            "target": "Clustering.R"
         },
         {
             "ports": [
@@ -137,7 +132,7 @@
                 }
             ],
             "source": "outlierTest.R",
-            "target": "AssociationMine.R"
+            "target": "MultiRegression.R"
         },
         {
             "ports": [
@@ -148,17 +143,27 @@
                 }
             ],
             "source": "outlierTest.R",
-            "target": "MultiRegression.R"
+            "target": "AssociationMine.R"
         },
         {
             "ports": [
                 {
-                    "output": "o",
+                    "output": "my_Plot",
                     "type": "png"
                 }
             ],
             "source": "Exploring_data.R",
-            "target": "plot461.png"
+            "target": "plot6715.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "bar1",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploring_data.R",
+            "target": "plot256.png"
         }
     ],
     "nodes": [
@@ -166,21 +171,9 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "name": "plot461.png"
-        },
-        {
-            "name": "plot7577.png"
-        },
-        {
             "assigned_to": "xsong21",
             "desc": "Chi Testing",
             "name": "chitesting.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "sahmed",
-            "desc": "Customer Segmentation and clustering using K-means",
-            "name": "kmeans.R",
             "task_status": "in progress"
         },
         {
@@ -233,8 +226,20 @@
             "desc": "Logistic regression",
             "name": "LogisticRegression.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Customer Segmentation and clustering using K-means",
+            "name": "Clustering.R",
+            "task_status": "in progress"
+        },
+        {
+            "name": "plot6715.png"
+        },
+        {
+            "name": "plot256.png"
         }
     ],
-    "updated_at": "2018-11-08 16:25:25",
+    "updated_at": "2018-11-08 16:55:30",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
