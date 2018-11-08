@@ -1,4 +1,5 @@
 
 
 data <- data
-str(data)  
+str(data)
+data$Satisfaction
