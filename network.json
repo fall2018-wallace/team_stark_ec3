@@ -179,12 +179,6 @@
         },
         {
             "assigned_to": "sahmed",
-            "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "sahmed",
             "desc": "Customer Segmentation and clustering using K-means",
             "name": "kmeans.R",
             "task_status": "in progress"
@@ -233,8 +227,14 @@
             "desc": "Association Rules",
             "name": "AssociationMine.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "xsong21",
+            "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
+            "name": "clean.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 16:10:07",
+    "updated_at": "2018-11-08 16:14:21",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
