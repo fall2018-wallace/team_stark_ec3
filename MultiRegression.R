@@ -1,5 +1,5 @@
 
 
-data <- data
+dataframe <- data
 str(data)
-abc <- data$Satisfaction
+abc <- dataframe$Satisfaction
