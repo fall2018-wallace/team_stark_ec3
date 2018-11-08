@@ -4,8 +4,6 @@ satSuv<-data
 satSuv$satlevel[satSuv$Satisfaction <3] <- 'low'
 satSuv$satlevel[satSuv$Satisfaction ==3] <- 'median'
 satSuv$satlevel[satSuv$Satisfaction >3] <- 'high'
-
-
 satSuv<-satSuv[satSuv$satlevel != 'median',]
 
 GLM1 <- glm(as.factor(satlevel) ~ Airline.Status +Age+ Gender +Price.Sensitivity+ 
