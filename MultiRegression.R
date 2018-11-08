@@ -90,8 +90,8 @@ predictor_model_gender <- lm(data$Satisfaction~data$Gender , data = data)
 # the data source which is data frame data
 summary(predictor_model_gender)
 
-plot2 <- ggplot(data,aes(jitter(Age), Satisfaction))+ geom_point()  # ggplot function is called with 2 paraments the data source and the aes aesthetic mapping of hotelsize and overalcustomer satisfaction. These go into respective x and y axis.
-plot2
+plot3 <- ggplot(data,aes(jitter(Gender), Satisfaction))+ geom_point()  # ggplot function is called with 2 paraments the data source and the aes aesthetic mapping of hotelsize and overalcustomer satisfaction. These go into respective x and y axis.
+plot3
 
 
 
@@ -99,3 +99,6 @@ predictor_model <- lm(data$Satisfaction~data$Airline.Status+data$Age+data$Gender
 # the dendent variable ~ and list of independent variables appended by + with each variable
 # the data source which is data frame data
 summary(predictor_model)
+
+plot4 <- ggplot(data,aes(jitter(Airline.Status), Satisfaction))+ geom_point()  # ggplot function is called with 2 paraments the data source and the aes aesthetic mapping of hotelsize and overalcustomer satisfaction. These go into respective x and y axis.
+plot4
