@@ -7,6 +7,7 @@ satSuv$satlevel[satSuv$Satisfaction >3] <- 'high'
 satSuv<-satSuv[satSuv$satlevel != 'median',]
 satSuv$Airline.Status<-as.factor(satSuv$Airline.Status)
 satSuv$Gender<-as.factor(satSuv$Gender)
+satSuv$Type.of.Travel<-as.factor(satSuv$Type.of.Travel)
 
 
 str(satSuv)
