@@ -12,3 +12,14 @@ my_Plot <- ggplot(clean_data, aes(x=Age))
 my_Plot <- my_Plot + geom_histogram(binwidth = 5)
 my_Plot <- my_Plot + ggtitle("Histogram of age")
 my_Plot
+
+
+
+
+#generating a barchart for age and satisfaction
+
+
+bar1 <- ggplot(clean_data, aes(x=Age, y=satisfaction))
+bar1 <- bar1 + geom_col()
+bar1 <- bar1 + ggtitle("Bar chart for age vs satisfaction")
+bar1
