@@ -257,8 +257,11 @@
         },
         {
             "name": "plot2.png"
+        },
+        {
+            "name": "plot3.png"
         }
     ],
-    "updated_at": "2018-11-08 17:13:16",
+    "updated_at": "2018-11-08 17:13:24",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
