@@ -4,11 +4,11 @@ satSuv<-data
 satSuv$satlevel[satSuv$Satisfaction <3] <- 'low'
 satSuv$satlevel[satSuv$Satisfaction ==3] <- 'median'
 satSuv$satlevel[satSuv$Satisfaction >3] <- 'high'
-head(satSuv)
-sum(is.na(satSuv))
+
 
 satSuv<-satSuv[satSuv$satlevel != 'median',]
-GLM1 <- glm(satlevel ~ Airline.Status +Age+ Gender +Price.Sensitivity+ 
+
+GLM1 <- glm(as.factor(satlevel) ~ Airline.Status +Age+ Gender +Price.Sensitivity+ 
     Year.of.First.Flight+ No.of.Flights.p.a. +X..of.Flight.with.other.Airlines+
      Type.of.Travel+No..of.other.Loyalty.Cards +Shopping.Amount.at.Airport+
      Eating.and.Drinking.at.Airport  +  Class +Day.of.Month+ Flight.date +Airline.Code+
