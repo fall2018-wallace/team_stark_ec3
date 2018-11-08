@@ -17,7 +17,7 @@ my_Plot
  
 bar2<- ggplot(clean_data, aes(x=Class, y=Satisfaction))
 bar2<- bar2 + geom_col()
-bar2 <- bar2 + ggtitle("Bar chart for age vs satisfaction")
+bar2 <- bar2 + ggtitle("Bar chart for Class vs satisfaction")
 bar2
 
 
