@@ -2,4 +2,4 @@
 
 data <- data
 str(data)
-data$Satisfaction
+abc <- data$Satisfaction
