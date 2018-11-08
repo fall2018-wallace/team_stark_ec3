@@ -1,6 +1,5 @@
 
-satSuv <- as.factor(data)
-#satSuv<-data
+satSuv<-data
 
 satSuv$satlevel[satSuv$Satisfaction <3] <- 'low'
 satSuv$satlevel[satSuv$Satisfaction ==3] <- 'median'
