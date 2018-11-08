@@ -144,6 +144,16 @@
             ],
             "source": "outlierTest.R",
             "target": "AssociationMine.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "my_Plot",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploring_data.R",
+            "target": "plot6715.png"
         }
     ],
     "nodes": [
@@ -217,6 +227,6 @@
             "name": "plot6715.png"
         }
     ],
-    "updated_at": "2018-11-08 16:34:52",
+    "updated_at": "2018-11-08 16:35:10",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
