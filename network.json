@@ -142,16 +142,6 @@
         {
             "ports": [
                 {
-                    "output": "my_Plot",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploring_data.R",
-            "target": "plot461.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "data",
                     "output": "data",
                     "type": "r_obj"
@@ -164,9 +154,6 @@
     "nodes": [
         {
             "name": "satisfactionSurvey.csv"
-        },
-        {
-            "name": "plot461.png"
         },
         {
             "name": "plot7577.png"
@@ -235,6 +222,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 16:30:52",
+    "updated_at": "2018-11-08 16:32:09",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
