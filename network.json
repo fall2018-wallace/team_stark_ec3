@@ -54,7 +54,7 @@
                 }
             ],
             "source": "outlierTest.R",
-            "target": "kmeans.R"
+            "target": "Clustering.R"
         },
         {
             "ports": [
@@ -178,12 +178,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "sahmed",
-            "desc": "Customer Segmentation and clustering using K-means",
-            "name": "kmeans.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "Shopping.Amount.at.Airport.png"
         },
         {
@@ -233,8 +227,14 @@
             "desc": "Logistic regression",
             "name": "LogisticRegression.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Customer Segmentation and clustering using K-means",
+            "name": "Clustering.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 16:25:25",
+    "updated_at": "2018-11-08 16:30:06",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
