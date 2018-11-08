@@ -184,6 +184,16 @@
             ],
             "source": "MultiRegression.R",
             "target": "plot1.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "plot1",
+                    "type": "png"
+                }
+            ],
+            "source": "MultiRegression.R",
+            "target": "plot2.png"
         }
     ],
     "nodes": [
@@ -275,6 +285,6 @@
             "name": "plot4.png"
         }
     ],
-    "updated_at": "2018-11-08 17:13:43",
+    "updated_at": "2018-11-08 17:13:52",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
