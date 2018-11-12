@@ -62,5 +62,5 @@ d$Flight.Distance_b<- as.factor(d$Flight.Distance_b) ## the new column is conevr
 head(d,1)
 d$Year.of.First.Flight_b<- as.factor(d$Year.of.First.Flight)
 
-d_factors<- d[, c(1,2,4,5]
+d_factors<- d[, c(1,2,4,5,6,9,15,16,17,18,19,20,27,28,29,30,31,32,33)]
 
