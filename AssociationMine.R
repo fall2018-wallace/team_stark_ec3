@@ -6,6 +6,7 @@ d$Satisfaction_b<- replicate(length(d$Satisfaction), "Average")
 d$Satisfaction_b[as.numeric(d$Satisfaction)<3 ]<- "Low"
 d$Satisfaction_b[as.numeric(d$Satisfaction)>3.5]<- "High"
 d$Satisfaction_b<- as.factor(d$Satisfaction_b)
+str(d)
 
 q1 <- quantile(d$Age, c(0.4, 0.6))## to determine the values of the 40th and 60 the percentile
 d$Age_b <- replicate(length(d$Age), "Average") ##A new colum is created replicating average upto the length of the vector
