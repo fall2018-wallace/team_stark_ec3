@@ -6,8 +6,7 @@ d$Satisfaction_b<- replicate(length(d$Satisfaction), "Average")
 d$Satisfaction_b[(d$Satisfaction)<3 ]<- "Low"
 d$Satisfaction_b[(d$Satisfaction)>3.5]<- "High"
 d$Satisfaction_b<- as.factor(d$Satisfaction_b)
-str(d)
-head(d,1)
+
 q1 <- quantile(d$Age, c(0.4, 0.6))## to determine the values of the 40th and 60 the percentile
 d$Age_b <- replicate(length(d$Age), "Average") ##A new colum is created replicating average upto the length of the vector
 d$Age_b[d$Age<= q1[1]] <- "Low" ## vector having value lesser than 40th percentile are labelled as low
@@ -21,8 +20,7 @@ d$No.of.Flights.p.a._b[d$No.of.Flights.p.a.<= q1[1]] <- "Low" ## vector having v
 d$No.of.Flights.p.a._b[d$No.of.Flights.p.a. > q1[2]] <- "High" ## vector having value greater than 60th percentile are labelled as high
 d$No.of.Flights.p.a._b<- as.factor(d$No.of.Flights.p.a._b) ## the new column is conevrted in factor class
 
-str(d)
-head(d,1)
+
 q1 <- quantile(d$X..of.Flight.with.other.Airlines , c(0.4, 0.6))## to determine the values of the 40th and 60 the percentile
 d$X..of.Flight.with.other.Airlines_b <- replicate(length(d$X..of.Flight.with.other.Airlines), "Average") ##A new colum is created replicating average upto the length of the vector
 d$X..of.Flight.with.other.Airlines_b[d$X..of.Flight.with.other.Airlines<= q1[1]] <- "Low" ## vector having value lesser than 40th percentile are labelled as low
