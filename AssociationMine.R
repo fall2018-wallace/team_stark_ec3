@@ -3,8 +3,8 @@ d<- data
 
 
 d$Satisfaction_b<- replicate(length(d$Satisfaction), "Average")
-d$Satisfaction_b[as.numeric(d$Satisfaction)<3 ]<- "Low"
-d$Satisfaction_b[as.numeric(d$Satisfaction)>3.5]<- "High"
+d$Satisfaction_b[(d$Satisfaction)<3 ]<- "Low"
+d$Satisfaction_b[(d$Satisfaction)>3.5]<- "High"
 d$Satisfaction_b<- as.factor(d$Satisfaction_b)
 str(d)
 head(d,1)
