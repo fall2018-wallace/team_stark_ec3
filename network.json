@@ -254,12 +254,6 @@
             "task_status": "in progress"
         },
         {
-            "assigned_to": "sahmed",
-            "desc": "Association Rules",
-            "name": "AssociationMine.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "xsong21",
             "desc": "Logistic regression",
             "name": "LogisticRegression.R",
@@ -303,8 +297,14 @@
             "desc": "MultipleLinearRegression analysis",
             "name": "MultiRegression.R",
             "task_status": "validating"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Association Rules",
+            "name": "AssociationMine.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-08 17:19:41",
+    "updated_at": "2018-11-12 22:04:35",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
