@@ -48,7 +48,7 @@ q1 <- quantile(d$Eating.and.Drinking.at.Airport1 , c(0.4, 0.6))
 d$Eating.and.Drinking.at.Airport_b[d$Eating.and.Drinking.at.Airport <= q1[1]] <- "Low" ## vector having value lesser than 40th percentile are labelled as low
 d$Eating.and.Drinking.at.Airport_b[d$Eating.and.Drinking.at.Airport > q1[2]] <- "High" ## vector having value greater than 60th percentile are labelled as high
 d$Eating.and.Drinking.at.Airport_b<- as.factor(d$Eating.and.Drinking.at.Airport_b) ## the new column is conevrted in factor class
-
+head(d,1)
 d$Flight.time.in.minutes_b<- replicate(length(d$Shopping.Amount.at.Airport), "Zero")
 q1 <- quantile(d$Flight.time.in.minutes , c(0.4, 0.6))
 d$Flight.time.in.minutes_b[d$Flight.time.in.minutes <= q1[1]] <- "Low" ## vector having value lesser than 40th percentile are labelled as low
