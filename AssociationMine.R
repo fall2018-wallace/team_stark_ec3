@@ -61,4 +61,4 @@ q1 <- quantile(d$Flight.Distance , c(0.4, 0.6))
 d$Flight.Distance_b[d$Flight.Distance <= q1[1]] <- "Low" ## vector having value lesser than 40th percentile are labelled as low
 d$Flight.Distance_b[d$Flight.Distance > q1[2]] <- "High" ## vector having value greater than 60th percentile are labelled as high
 d$Flight.Distance_b<- as.factor(d$Flight.Distance_b) ## the new column is conevrted in factor class
-
+head(d,1)
