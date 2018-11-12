@@ -47,3 +47,15 @@ d$Eating.and.Drinking.at.Airport_b[d$Eating.and.Drinking.at.Airport <= q1[1]] <-
 d$Eating.and.Drinking.at.Airport_b[d$Eating.and.Drinking.at.Airport > q1[2]] <- "High" ## vector having value greater than 60th percentile are labelled as high
 d$Eating.and.Drinking.at.Airport_b<- as.factor(d$Eating.and.Drinking.at.Airport_b) ## the new column is conevrted in factor class
 
+d$Flight.time.in.minutes_b<- replicate(length(d$Shopping.Amount.at.Airport), "Zero")
+q1 <- quantile(d$Flight.time.in.minutes , c(0.4, 0.6))
+d$Flight.time.in.minutes_b[d$Flight.time.in.minutes <= q1[1]] <- "Low" ## vector having value lesser than 40th percentile are labelled as low
+d$Flight.time.in.minutes_b[d$Flight.time.in.minutes > q1[2]] <- "High" ## vector having value greater than 60th percentile are labelled as high
+d$Flight.time.in.minutes_b<- as.factor(d$Flight.time.in.minutes_b) ## the new column is conevrted in factor class
+
+d$Flight.Distance_b<- replicate(length(d$Flight.Distance), "Zero")
+q1 <- quantile(d$Flight.Distance , c(0.4, 0.6))
+d$Flight.Distance_b[d$Flight.Distance <= q1[1]] <- "Low" ## vector having value lesser than 40th percentile are labelled as low
+d$Flight.Distance_b[d$Flight.Distance > q1[2]] <- "High" ## vector having value greater than 60th percentile are labelled as high
+d$Flight.Distance_b<- as.factor(d$Flight.Distance_b) ## the new column is conevrted in factor class
+
