@@ -1,7 +1,6 @@
 
-str(d)
 d<- data
-
+str(d)
 
 d$Satisfaction_b<- replicate(length(d$Satisfaction), "Average")
 d$Satisfaction_b[(d$Satisfaction)<3 ]<- "Low"
