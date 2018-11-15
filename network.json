@@ -214,6 +214,17 @@
             ],
             "source": "Exploring_data.R",
             "target": "plot2683.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "outlierTest.R",
+            "target": "SVM.R"
         }
     ],
     "nodes": [
@@ -309,6 +320,6 @@
             "name": "SVM.R"
         }
     ],
-    "updated_at": "2018-11-15 15:56:13",
+    "updated_at": "2018-11-15 15:56:29",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
