@@ -7,15 +7,6 @@ d$Satisfaction_b[(d$Satisfaction)<3 ]<- "Low"
 d$Satisfaction_b[(d$Satisfaction)>3.5]<- "High"
 d$Satisfaction_b<- as.factor(d$Satisfaction_b)
 
-d$Price.Sensitivity_b<- replicate(length(d$Price.Sensitivity), "Average")
-d$Price.Sensitivity_b[as.numeric(d$Price.Sensitivity)<3 ]<- "Low"
-d$Price.Sensitivity_b[as.numeric(d$Price.Sensitivity)>3.5]<- "High"
-d$Price.Sensitivity_b<- as.factor(d$Price.Sensitivity_b)
-
-d$Year.of.First.Flight_b<- as.factor(d$Year.of.First.Flight_b) ## the new column is conevrted in factor class
-
-
-
 q1 <- quantile(d$Age, c(0.4, 0.6))## to determine the values of the 40th and 60 the percentile
 d$Age_b <- replicate(length(d$Age), "Average") ##A new colum is created replicating average upto the length of the vector
 d$Age_b[d$Age<= q1[1]] <- "Low" ## vector having value lesser than 40th percentile are labelled as low
