@@ -316,10 +316,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "agauribi",
             "desc": "Support Vector Machine",
-            "name": "SVM.R"
+            "name": "SVM.R",
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-11-15 15:56:29",
+    "updated_at": "2018-11-15 15:56:43",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
