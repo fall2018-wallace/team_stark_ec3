@@ -18,7 +18,7 @@ d$Price.Sensitivity_b[as.numeric(d$Price.Sensitivity)<3 ]<- "Low"
 d$Price.Sensitivity_b[as.numeric(d$Price.Sensitivity)>3.5]<- "High"
 d$Price.Sensitivity_b<- as.factor(d$Price.Sensitivity_b)
 
-d$Year.of.First.Flight_b<- as.factor(d$Year.of.First.Flight_b) ## the new column is conevrted in factor class
+d$Year.of.First.Flight_b<- as.factor(d$Year.of.First.Flight) ## the new column is conevrted in factor class
 
 q1 <- quantile(d$No.of.Flights.p.a. , c(0.4, 0.6))## to determine the values of the 40th and 60 the percentile
 d$No.of.Flights.p.a._b <- replicate(length(d$No.of.Flights.p.a.), "Average") ##A new colum is created replicating average upto the length of the vector
