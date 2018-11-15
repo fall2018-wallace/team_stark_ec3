@@ -91,6 +91,9 @@ str(d)
 d_factors<- d[, c(1,2,4,9,13,15,16,17,18,19,20,21,25,28,29,30,31,32,33,34,36,38,40,41,42,43,44,45)]
 str(d_factors)
 
+library(arules)
+library(arulesViz)
+
 hotelSurveyX <- as(d_factors,"transactions") ##data frame is converted into a sparse transactions matrix using as().
 rules <- apriori(hotelSurveyX,parameter = list(sup = 0.5, conf = 0.5,target="rules")) ##support value is approximately the proportion of the satisfied customers
 summary(rules) 
