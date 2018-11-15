@@ -1,7 +1,4 @@
 
-#setwd("/Users/xinxiasong/Documents/textbook_fall_2018")
-#getwd()
-#satSuv <- read.csv(file="satisfactionSurvey.csv", header=TRUE, sep=",",stringsAsFactors = FALSE)
 satSuv<-data
 
 satSuv$satlevel[satSuv$Satisfaction <2.5] <- 'low'
