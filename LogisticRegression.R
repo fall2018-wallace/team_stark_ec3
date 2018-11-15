@@ -39,7 +39,7 @@ summary(GLM2)
 Residual_Deviance <- 43235
 Null_Deviance <- 111244
 pseudo_R <- 1 - (Residual_Deviance/Null_Deviance)
-
+pseudo_R
 
 
 
