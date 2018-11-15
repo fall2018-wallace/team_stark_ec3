@@ -36,7 +36,8 @@ GLM2 <- glm(satlevel ~ Airline.Status +Age+ Gender +Price.Sensitivity+
     data = satSuv, family = binomial(link="logit"))
 summary(GLM2)
 
-1 - (Residual Deviance/Null Deviance)
+Residual_Deviance <- 43235
+1 - (Residual_Deviance/Null_Deviance)
 
 
 
