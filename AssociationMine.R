@@ -1,4 +1,5 @@
 
+str(d)
 d<- data
 
 
@@ -56,6 +57,14 @@ d$Eating.and.Drinking.at.Airport_b[d$Eating.and.Drinking.at.Airport <= q1[1]] <-
 d$Eating.and.Drinking.at.Airport_b[d$Eating.and.Drinking.at.Airport > q1[2]] <- "High" ## vector having value greater than 60th percentile are labelled as high
 d$Eating.and.Drinking.at.Airport_b<- as.factor(d$Eating.and.Drinking.at.Airport_b) ## the new column is conevrted in factor class
 head(d,1)
+
+d$Scheduled.Departure.Hour_b[(d$Scheduled.Departure.Hour)<= 4 ]<- "After Midnight"
+d$Scheduled.Departure.Hour_b[(d$Scheduled.Departure.Hour)>=  5 & (d$Scheduled.Departure.Hour)<=11]<- "Morning"
+d$Scheduled.Departure.Hour_b[(d$Scheduled.Departure.Hour)>=  12 & (d$Scheduled.Departure.Hour)<=15]<- "Day"
+d$Scheduled.Departure.Hour_b[(d$Scheduled.Departure.Hour)>=  16 & (d$Scheduled.Departure.Hour)<= 20]<- "Evening"
+d$Scheduled.Departure.Hour_b[(d$Scheduled.Departure.Hour)>=  21 & (d$Scheduled.Departure.Hour)<= 24]<- "Night"
+d$Scheduled.Departure.Hour_b<- as.factor(d$Scheduled.Departure.Hour_b)
+
 
 d$Flight.time.in.minutes_b<- replicate(length(d$Shopping.Amount.at.Airport), "Zero")
 q1 <- quantile(d$Flight.time.in.minutes , c(0.4, 0.6))
