@@ -303,8 +303,12 @@
             "desc": "Association Rules",
             "name": "AssociationMine.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "Support Vector Machine",
+            "name": "SVM.R"
         }
     ],
-    "updated_at": "2018-11-12 22:04:35",
+    "updated_at": "2018-11-15 15:56:13",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
