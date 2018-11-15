@@ -66,7 +66,7 @@ d$Scheduled.Departure.Hour_b[(d$Scheduled.Departure.Hour)>=  16 & (d$Scheduled.D
 d$Scheduled.Departure.Hour_b[(d$Scheduled.Departure.Hour)>=  21 & (d$Scheduled.Departure.Hour)<= 24]<- "Night"
 d$Scheduled.Departure.Hour_b<- as.factor(d$Scheduled.Departure.Hour_b)
 
-d$Departure.Delay.in.Minutes_b[as.numeric(Departure.Delay.in.Minutes)<= 60]<- "Less than an hour"
+d$Departure.Delay.in.Minutes_b[as.numeric(d$Departure.Delay.in.Minutes)<= 60]<- "Less than an hour"
 d$Departure.Delay.in.Minutes_b[as.numeric(d$Departure.Delay.in.Minutes)> 60]<- "More than an hour"
 d$Departure.Delay.in.Minutes_b<- as.factor(d$Departure.Delay.in.Minutes)
 
