@@ -37,7 +37,8 @@ GLM2 <- glm(satlevel ~ Airline.Status +Age+ Gender +Price.Sensitivity+
 summary(GLM2)
 
 Residual_Deviance <- 43235
-1 - (Residual_Deviance/Null_Deviance)
+Null_Deviance <- 111244
+pseudo_R <- 1 - (Residual_Deviance/Null_Deviance)
 
 
 
