@@ -253,12 +253,6 @@
             "name": "Sample.csv"
         },
         {
-            "assigned_to": "beallen",
-            "desc": "summary test to understand more about the data",
-            "name": "outlierTest.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "xsong21",
             "desc": "Logistic regression",
             "name": "LogisticRegression.R",
@@ -320,8 +314,14 @@
             "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
             "name": "clean.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "beallen",
+            "desc": "summary test to understand more about the data",
+            "name": "outlierTest.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-11-25 22:40:55",
+    "updated_at": "2018-11-25 22:41:06",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
