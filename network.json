@@ -253,12 +253,6 @@
             "name": "Sample.csv"
         },
         {
-            "assigned_to": "sahmed",
-            "desc": "Customer Segmentation and clustering using K-means",
-            "name": "Clustering.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "plot6715.png"
         },
         {
@@ -320,8 +314,14 @@
             "desc": "Logistic regression",
             "name": "LogisticRegression.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Customer Segmentation and clustering using K-means",
+            "name": "Clustering.R",
+            "task_status": "validating"
         }
     ],
-    "updated_at": "2018-11-25 22:41:20",
+    "updated_at": "2018-11-25 22:41:43",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
