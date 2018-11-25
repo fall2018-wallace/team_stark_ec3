@@ -232,12 +232,6 @@
             "name": "satisfactionSurvey.csv"
         },
         {
-            "assigned_to": "xsong21",
-            "desc": "Chi Testing",
-            "name": "chitesting.R",
-            "task_status": "in progress"
-        },
-        {
             "name": "Shopping.Amount.at.Airport.png"
         },
         {
@@ -320,8 +314,14 @@
             "desc": "Customer Segmentation and clustering using K-means",
             "name": "Clustering.R",
             "task_status": "validating"
+        },
+        {
+            "assigned_to": "xsong21",
+            "desc": "Chi Testing",
+            "name": "chitesting.R",
+            "task_status": "validating"
         }
     ],
-    "updated_at": "2018-11-25 22:41:43",
+    "updated_at": "2018-11-25 22:42:17",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
