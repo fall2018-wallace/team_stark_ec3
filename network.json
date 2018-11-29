@@ -116,16 +116,6 @@
         {
             "ports": [
                 {
-                    "output": "my_Plot",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploring_data.R",
-            "target": "ageSat.png"
-        },
-        {
-            "ports": [
-                {
                     "output": "bar1",
                     "type": "png"
                 }
@@ -163,6 +153,16 @@
             ],
             "source": "outlierTest.R",
             "target": "data1.csv"
+        },
+        {
+            "ports": [
+                {
+                    "output": "ageSat",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploring_data.R",
+            "target": "ageSat.png"
         }
     ],
     "nodes": [
@@ -236,6 +236,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-29 16:56:36",
+    "updated_at": "2018-11-29 16:56:53",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
