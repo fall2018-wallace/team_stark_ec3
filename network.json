@@ -191,9 +191,6 @@
             "name": "plot2683.png"
         },
         {
-            "name": "plot4.png"
-        },
-        {
             "assigned_to": "sahmed",
             "desc": "Association Rules",
             "name": "AssociationMine.R",
@@ -239,6 +236,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-11-29 16:18:59",
+    "updated_at": "2018-11-29 16:19:07",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
