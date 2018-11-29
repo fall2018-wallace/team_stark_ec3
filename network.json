@@ -43,17 +43,6 @@
         {
             "ports": [
                 {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "outlierTest.R",
-            "target": "Clustering.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "clean_data",
                     "output": "clean_data",
                     "type": "r_obj"
@@ -320,12 +309,6 @@
             "task_status": "completed"
         },
         {
-            "assigned_to": "sahmed",
-            "desc": "Customer Segmentation and clustering using K-means",
-            "name": "Clustering.R",
-            "task_status": "validating"
-        },
-        {
             "assigned_to": "xsong21",
             "desc": "Chi Testing",
             "name": "chitesting.R",
@@ -335,6 +318,6 @@
             "name": "data1.csv"
         }
     ],
-    "updated_at": "2018-11-29 11:21:08",
+    "updated_at": "2018-11-29 16:09:37",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
