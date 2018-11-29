@@ -179,9 +179,6 @@
             "name": "day_of_month.png"
         },
         {
-            "name": "plot_linear.png"
-        },
-        {
             "name": "Sample.csv"
         },
         {
@@ -192,18 +189,6 @@
         },
         {
             "name": "plot2683.png"
-        },
-        {
-            "name": "plot1.png"
-        },
-        {
-            "name": "plot2.png"
-        },
-        {
-            "name": "plot3.png"
-        },
-        {
-            "name": "plot4.png"
         },
         {
             "assigned_to": "sahmed",
@@ -251,6 +236,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-11-29 16:18:31",
+    "updated_at": "2018-11-29 16:19:07",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
