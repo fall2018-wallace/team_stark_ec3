@@ -320,8 +320,11 @@
             "desc": "Chi Testing",
             "name": "chitesting.R",
             "task_status": "validating"
+        },
+        {
+            "name": "data1.csv"
         }
     ],
-    "updated_at": "2018-11-25 22:42:17",
+    "updated_at": "2018-11-29 11:20:56",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
