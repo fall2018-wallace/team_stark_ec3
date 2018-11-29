@@ -37,39 +37,6 @@ d$X..of.Flight.with.other.Airlines_b[d$X..of.Flight.with.other.Airlines<= q1[1]]
 d$X..of.Flight.with.other.Airlines_b[d$X..of.Flight.with.other.Airlines > q1[2]] <- "High" ## vector having value greater than 60th percentile are labelled as high
 d$X..of.Flight.with.other.Airlines_b<- as.factor(d$X..of.Flight.with.other.Airlines_b) ## the new column is conevrted in factor class
 
-
-d$No..of.other.Loyalty.Cards_b<- replicate(length(d$No..of.other.Loyalty.Cards), "Average")
-d$No..of.other.Loyalty.Cards_b[as.numeric(d$No..of.other.Loyalty.Cards)<5 ]<- "Low"
-d$No..of.other.Loyalty.Cards_b[as.numeric(d$No..of.other.Loyalty.Cards)>8]<- "High"
-d$No..of.other.Loyalty.Cards_b<- as.factor(d$No..of.other.Loyalty.Cards_b)
-
-d$Shopping.Amount.at.Airport_b<- replicate(length(d$Shopping.Amount.at.Airport), "Zero")
-d$Shopping.Amount.at.Airport1<- d$Shopping.Amount.at.Airport!= 0
-q1 <- quantile(d$Shopping.Amount.at.Airport1 , c(0.4, 0.6))
-d$Shopping.Amount.at.Airport_b[d$Shopping.Amount.at.Airport <= q1[1]] <- "Low" ## vector having value lesser than 40th percentile are labelled as low
-d$Shopping.Amount.at.Airport_b[d$Shopping.Amount.at.Airport > q1[2]] <- "High" ## vector having value greater than 60th percentile are labelled as high
-d$Shopping.Amount.at.Airport_b<- as.factor(d$Shopping.Amount.at.Airport_b) ## the new column is conevrted in factor class
-
-d$Eating.and.Drinking.at.Airport_b<- replicate(length(d$Shopping.Amount.at.Airport), "Zero")
-d$Eating.and.Drinking.at.Airport1<- d$Shopping.Amount.at.Airport!= 0
-q1 <- quantile(d$Eating.and.Drinking.at.Airport1 , c(0.4, 0.6))
-d$Eating.and.Drinking.at.Airport_b[d$Eating.and.Drinking.at.Airport <= q1[1]] <- "Low" ## vector having value lesser than 40th percentile are labelled as low
-d$Eating.and.Drinking.at.Airport_b[d$Eating.and.Drinking.at.Airport > q1[2]] <- "High" ## vector having value greater than 60th percentile are labelled as high
-d$Eating.and.Drinking.at.Airport_b<- as.factor(d$Eating.and.Drinking.at.Airport_b) ## the new column is conevrted in factor class
-head(d,1)
-
-d$Day.of.Month_b<- replicate(length(d$Day.of.Month), "Mid")
-d$Day.of.Month_b[as.numeric(d$Day.of.Month)<= 10 ]<- "Start"
-d$Day.of.Month_b[as.numeric(d$Day.of.Month)>= 20]<- "End"
-d$Day.of.Month_b<- as.factor(d$Day.of.Month_b)
-
-d$Scheduled.Departure.Hour_b[(d$Scheduled.Departure.Hour)<= 4 ]<- "After Midnight"
-d$Scheduled.Departure.Hour_b[(d$Scheduled.Departure.Hour)>=  5 & (d$Scheduled.Departure.Hour)<=11]<- "Morning"
-d$Scheduled.Departure.Hour_b[(d$Scheduled.Departure.Hour)>=  12 & (d$Scheduled.Departure.Hour)<=15]<- "Day"
-d$Scheduled.Departure.Hour_b[(d$Scheduled.Departure.Hour)>=  16 & (d$Scheduled.Departure.Hour)<= 20]<- "Evening"
-d$Scheduled.Departure.Hour_b[(d$Scheduled.Departure.Hour)>=  21 & (d$Scheduled.Departure.Hour)<= 24]<- "Night"
-d$Scheduled.Departure.Hour_b<- as.factor(d$Scheduled.Departure.Hour_b)
-
 d$Departure.Delay.in.Minutes_b[as.numeric(d$Departure.Delay.in.Minutes)<= 60]<- "Less than an hour"
 d$Departure.Delay.in.Minutes_b[as.numeric(d$Departure.Delay.in.Minutes)> 60]<- "More than an hour"
 d$Departure.Delay.in.Minutes_b<- as.factor(d$Departure.Delay.in.Minutes)
@@ -84,11 +51,6 @@ d$Flight.time.in.minutes_b[d$Flight.time.in.minutes <= q1[1]] <- "Low" ## vector
 d$Flight.time.in.minutes_b[d$Flight.time.in.minutes > q1[2]] <- "High" ## vector having value greater than 60th percentile are labelled as high
 d$Flight.time.in.minutes_b<- as.factor(d$Flight.time.in.minutes_b) ## the new column is conevrted in factor class
 
-d$Flight.Distance_b<- replicate(length(d$Flight.Distance), "Zero")
-q1 <- quantile(d$Flight.Distance , c(0.4, 0.6))
-d$Flight.Distance_b[d$Flight.Distance <= q1[1]] <- "Low" ## vector having value lesser than 40th percentile are labelled as low
-d$Flight.Distance_b[d$Flight.Distance > q1[2]] <- "High" ## vector having value greater than 60th percentile are labelled as high
-d$Flight.Distance_b<- as.factor(d$Flight.Distance_b) ## the new column is conevrted in factor class
 
 str(d)
 
