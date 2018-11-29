@@ -43,17 +43,6 @@
         {
             "ports": [
                 {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "outlierTest.R",
-            "target": "Clustering.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "clean_data",
                     "output": "clean_data",
                     "type": "r_obj"
@@ -225,17 +214,21 @@
             ],
             "source": "outlierTest.R",
             "target": "SVM.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "outlierTest.R",
+            "target": "data1.csv"
         }
     ],
     "nodes": [
         {
             "name": "satisfactionSurvey.csv"
-        },
-        {
-            "assigned_to": "xsong21",
-            "desc": "Chi Testing",
-            "name": "chitesting.R",
-            "task_status": "in progress"
         },
         {
             "name": "Shopping.Amount.at.Airport.png"
@@ -251,30 +244,6 @@
         },
         {
             "name": "Sample.csv"
-        },
-        {
-            "assigned_to": "beallen",
-            "desc": "summary test to understand more about the data",
-            "name": "outlierTest.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "spachika",
-            "desc": "Exploring the data. calculating the spread, central tendency",
-            "name": "Exploring_data.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "xsong21",
-            "desc": "Logistic regression",
-            "name": "LogisticRegression.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "sahmed",
-            "desc": "Customer Segmentation and clustering using K-means",
-            "name": "Clustering.R",
-            "task_status": "in progress"
         },
         {
             "name": "plot6715.png"
@@ -298,12 +267,6 @@
             "name": "plot4.png"
         },
         {
-            "assigned_to": "sahmed",
-            "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
-            "name": "clean.R",
-            "task_status": "in progress"
-        },
-        {
             "assigned_to": "agauribi",
             "desc": "MultipleLinearRegression analysis",
             "name": "MultiRegression.R",
@@ -320,8 +283,41 @@
             "desc": "Support Vector Machine",
             "name": "SVM.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "spachika",
+            "desc": "Exploring the data. calculating the spread, central tendency",
+            "name": "Exploring_data.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
+            "name": "clean.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "beallen",
+            "desc": "summary test to understand more about the data",
+            "name": "outlierTest.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "xsong21",
+            "desc": "Chi Testing",
+            "name": "chitesting.R",
+            "task_status": "validating"
+        },
+        {
+            "name": "data1.csv"
+        },
+        {
+            "assigned_to": "xsong21",
+            "desc": "Logistic regression",
+            "name": "LogisticRegression.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-11-15 15:56:54",
+    "updated_at": "2018-11-29 16:17:28",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
