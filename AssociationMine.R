@@ -96,12 +96,17 @@ library(arulesViz)
 library(methods)
 
 hotelSurveyX <- as(d_factors,"transactions") ##data frame is converted into a sparse transactions matrix using as().
-rules <- apriori(hotelSurveyX,parameter = list(sup = 0.5, conf = 0.5,target="rules")) ##support value is approximately the proportion of the satisfied customers
-summary(rules) 
+
+rules <- apriori(hotelSurveyX1,parameter = list(sup = 0.5, conf = 0.9), appearance = list(default ="lhs", rhs= ("Satisfaction_b=High"))) ##support value is approximately the proportion of the satisfied customers
+
 inspect(rules) ## to view the ruleset
 
 plot(rules) ## gives the scatter plot for the support and confidence of the 8 rules
 
-goodrules <- rules[quality(rules)$lift > 1.0] ## to get the rules with highest confidence
+goodrules <- rules[quality(rules)$lift > 1.17] ## to get the rules with highest confidence
 inspect(goodrules) ## to view the ruleset
 
+RULES<- sort(rules, by =c("confidence"))
+ 
+inspect(head(RULES))
+summary(RULES)
