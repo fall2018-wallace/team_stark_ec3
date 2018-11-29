@@ -54,3 +54,4 @@ d$Flight.time.in.minutes_b<- as.factor(d$Flight.time.in.minutes_b) ## the new co
 
 str(d)
 
+ageSat<-plot(d$Satisfaction_b, d$Age)
