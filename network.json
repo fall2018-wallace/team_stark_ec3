@@ -191,9 +191,6 @@
             "name": "plot2683.png"
         },
         {
-            "name": "plot2.png"
-        },
-        {
             "name": "plot3.png"
         },
         {
@@ -245,6 +242,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-11-29 16:18:45",
+    "updated_at": "2018-11-29 16:18:52",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
