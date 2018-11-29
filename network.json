@@ -267,12 +267,6 @@
             "name": "plot4.png"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "MultipleLinearRegression analysis",
-            "name": "MultiRegression.R",
-            "task_status": "validating"
-        },
-        {
             "assigned_to": "sahmed",
             "desc": "Association Rules",
             "name": "AssociationMine.R",
@@ -316,8 +310,14 @@
             "desc": "Logistic regression",
             "name": "LogisticRegression.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "MultipleLinearRegression analysis",
+            "name": "MultiRegression.R",
+            "task_status": "validating"
         }
     ],
-    "updated_at": "2018-11-29 16:17:28",
+    "updated_at": "2018-11-29 16:18:22",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
