@@ -111,17 +111,6 @@
                 }
             ],
             "source": "outlierTest.R",
-            "target": "MultiRegression.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "outlierTest.R",
             "target": "AssociationMine.R"
         },
         {
@@ -143,56 +132,6 @@
             ],
             "source": "Exploring_data.R",
             "target": "plot256.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot1",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot1.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot2",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot2.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot3",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot3.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot4",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot4.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot_linear.png"
         },
         {
             "ports": [
@@ -310,14 +249,8 @@
             "desc": "Logistic regression",
             "name": "LogisticRegression.R",
             "task_status": "completed"
-        },
-        {
-            "assigned_to": "sahmed",
-            "desc": "MultipleLinearRegression analysis",
-            "name": "MultiRegression.R",
-            "task_status": "validating"
         }
     ],
-    "updated_at": "2018-11-29 16:18:23",
+    "updated_at": "2018-11-29 16:18:31",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
