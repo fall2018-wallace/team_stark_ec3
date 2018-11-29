@@ -304,20 +304,20 @@
         },
         {
             "assigned_to": "xsong21",
-            "desc": "Logistic regression",
-            "name": "LogisticRegression.R",
-            "task_status": "completed"
-        },
-        {
-            "assigned_to": "xsong21",
             "desc": "Chi Testing",
             "name": "chitesting.R",
             "task_status": "validating"
         },
         {
             "name": "data1.csv"
+        },
+        {
+            "assigned_to": "xsong21",
+            "desc": "Logistic regression",
+            "name": "LogisticRegression.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-11-29 16:09:37",
+    "updated_at": "2018-11-29 16:17:28",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
