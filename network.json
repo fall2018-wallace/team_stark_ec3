@@ -43,17 +43,6 @@
         {
             "ports": [
                 {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "outlierTest.R",
-            "target": "Clustering.R"
-        },
-        {
-            "ports": [
-                {
                     "input": "clean_data",
                     "output": "clean_data",
                     "type": "r_obj"
@@ -122,17 +111,6 @@
                 }
             ],
             "source": "outlierTest.R",
-            "target": "MultiRegression.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "outlierTest.R",
             "target": "AssociationMine.R"
         },
         {
@@ -158,7 +136,7 @@
         {
             "ports": [
                 {
-                    "output": "hist1",
+                    "output": "bar2",
                     "type": "png"
                 }
             ],
@@ -168,63 +146,28 @@
         {
             "ports": [
                 {
-                    "output": "plot1",
-                    "type": "png"
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
                 }
             ],
-            "source": "MultiRegression.R",
-            "target": "plot1.png"
+            "source": "outlierTest.R",
+            "target": "SVM.R"
         },
         {
             "ports": [
                 {
-                    "output": "plot2",
-                    "type": "png"
+                    "output": "data",
+                    "type": "csv"
                 }
             ],
-            "source": "MultiRegression.R",
-            "target": "plot2.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot3",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot3.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot4",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot4.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot_linear.png"
+            "source": "outlierTest.R",
+            "target": "data1.csv"
         }
     ],
     "nodes": [
         {
             "name": "satisfactionSurvey.csv"
-        },
-        {
-            "assigned_to": "xsong21",
-            "desc": "Chi Testing",
-            "name": "chitesting.R",
-            "task_status": "in progress"
         },
         {
             "name": "Shopping.Amount.at.Airport.png"
@@ -236,40 +179,7 @@
             "name": "day_of_month.png"
         },
         {
-            "name": "plot_linear.png"
-        },
-        {
             "name": "Sample.csv"
-        },
-        {
-            "assigned_to": "beallen",
-            "desc": "summary test to understand more about the data",
-            "name": "outlierTest.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "spachika",
-            "desc": "Exploring the data. calculating the spread, central tendency",
-            "name": "Exploring_data.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "sahmed",
-            "desc": "Association Rules",
-            "name": "AssociationMine.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "xsong21",
-            "desc": "Logistic regression",
-            "name": "LogisticRegression.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "sahmed",
-            "desc": "Customer Segmentation and clustering using K-means",
-            "name": "Clustering.R",
-            "task_status": "in progress"
         },
         {
             "name": "plot6715.png"
@@ -281,30 +191,51 @@
             "name": "plot2683.png"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "MultipleLinearRegression analysis",
-            "name": "MultiRegression.R",
+            "assigned_to": "sahmed",
+            "desc": "Association Rules",
+            "name": "AssociationMine.R",
             "task_status": "in progress"
         },
         {
-            "name": "plot1.png"
+            "assigned_to": "agauribi",
+            "desc": "Support Vector Machine",
+            "name": "SVM.R",
+            "task_status": "in progress"
         },
         {
-            "name": "plot2.png"
-        },
-        {
-            "name": "plot3.png"
-        },
-        {
-            "name": "plot4.png"
+            "assigned_to": "spachika",
+            "desc": "Exploring the data. calculating the spread, central tendency",
+            "name": "Exploring_data.R",
+            "task_status": "completed"
         },
         {
             "assigned_to": "sahmed",
             "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
             "name": "clean.R",
-            "task_status": "in progress"
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "beallen",
+            "desc": "summary test to understand more about the data",
+            "name": "outlierTest.R",
+            "task_status": "completed"
+        },
+        {
+            "assigned_to": "xsong21",
+            "desc": "Chi Testing",
+            "name": "chitesting.R",
+            "task_status": "validating"
+        },
+        {
+            "name": "data1.csv"
+        },
+        {
+            "assigned_to": "xsong21",
+            "desc": "Logistic regression",
+            "name": "LogisticRegression.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-11-08 17:15:50",
+    "updated_at": "2018-11-29 16:19:07",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
