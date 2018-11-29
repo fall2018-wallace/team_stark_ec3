@@ -225,6 +225,16 @@
             ],
             "source": "outlierTest.R",
             "target": "SVM.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "data",
+                    "type": "csv"
+                }
+            ],
+            "source": "outlierTest.R",
+            "target": "data1.csv"
         }
     ],
     "nodes": [
@@ -325,6 +335,6 @@
             "name": "data1.csv"
         }
     ],
-    "updated_at": "2018-11-29 11:20:56",
+    "updated_at": "2018-11-29 11:21:08",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
