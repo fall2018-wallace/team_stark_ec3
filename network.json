@@ -143,17 +143,6 @@
             ],
             "source": "Exploring_data.R",
             "target": "ageSat.png"
-        },
-        {
-            "ports": [
-                {
-                    "input": "kernfit",
-                    "output": "kernfit",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "SVM.R",
-            "target": "Prediction.R"
         }
     ],
     "nodes": [
@@ -219,14 +208,8 @@
             "desc": "Support Vector Machine",
             "name": "SVM.R",
             "task_status": "in progress"
-        },
-        {
-            "assigned_to": "agauribi",
-            "desc": "",
-            "name": "Prediction.R",
-            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-30 05:47:16",
+    "updated_at": "2018-11-30 13:45:00",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
