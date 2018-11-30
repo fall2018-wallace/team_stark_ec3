@@ -49,3 +49,7 @@ predictions_mlr = as.data.frame(predict(NB_mlr, newdata = Clean_dataset[,1:8]))
 ##Confusion matrix to check accuracy
 table(predictions_mlr[,1],Clean_dataset$Overall_Satisfaction)
   
+  
+  
+  
+## Random Forest
