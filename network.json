@@ -127,16 +127,6 @@
         {
             "ports": [
                 {
-                    "output": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "outlierTest.R",
-            "target": "data1.csv"
-        },
-        {
-            "ports": [
-                {
                     "output": "ageSat",
                     "type": "png"
                 }
@@ -200,9 +190,6 @@
             "task_status": "validating"
         },
         {
-            "name": "data1.csv"
-        },
-        {
             "assigned_to": "xsong21",
             "desc": "Logistic regression",
             "name": "LogisticRegression.R",
@@ -225,6 +212,6 @@
             "task_status": "validating"
         }
     ],
-    "updated_at": "2018-11-30 13:46:57",
+    "updated_at": "2018-11-30 13:47:07",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
