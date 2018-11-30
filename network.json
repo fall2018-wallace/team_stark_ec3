@@ -202,16 +202,18 @@
             "task_status": "in progress"
         },
         {
-            "desc": "",
-            "name": "Bayers.R"
-        },
-        {
             "assigned_to": "agauribi",
             "desc": "Support Vector Machine",
             "name": "SVM.R",
             "task_status": "validating"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "",
+            "name": "Bayers.R",
+            "task_status": "validating"
         }
     ],
-    "updated_at": "2018-11-30 13:47:07",
+    "updated_at": "2018-11-30 13:47:16",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
