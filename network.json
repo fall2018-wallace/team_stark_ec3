@@ -214,8 +214,12 @@
             "desc": "Support Vector Machine",
             "name": "SVM.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "Prediction.R"
         }
     ],
-    "updated_at": "2018-11-30 01:13:56",
+    "updated_at": "2018-11-30 05:41:26",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
