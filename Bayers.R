@@ -12,7 +12,6 @@ data[data$Satisfaction < 3.5, "Overall_Satisfaction"] <- "Unsatisfied"
 
 data$Overall_Satisfaction <- as.factor(data$Overall_Satisfaction)
 
-str(data)Gender
 data_clean <- data[,c("Airline.Status", "Gender", "Type.of.Travel", "Class", "Airline.Code", "Airline.Name", "Flight.cancelled", "Arrival.Delay.greater.5.Mins", "Overall_Satisfaction")]
 
 repeating_sequence=rep.int(seq_len(nrow(data_clean)), data_clean$Overall_Satisfaction)
