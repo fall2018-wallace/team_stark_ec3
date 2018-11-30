@@ -208,8 +208,12 @@
             "desc": "Support Vector Machine",
             "name": "SVM.R",
             "task_status": "in progress"
+        },
+        {
+            "desc": "",
+            "name": "Bayers.R"
         }
     ],
-    "updated_at": "2018-11-30 13:45:00",
+    "updated_at": "2018-11-30 13:46:16",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
