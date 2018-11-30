@@ -1,6 +1,5 @@
 
 library(jsonlite)
-library(dplyr)
 library(kernlab)
 library(randomForest)
 
