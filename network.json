@@ -143,6 +143,17 @@
             ],
             "source": "Exploring_data.R",
             "target": "ageSat.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "kernfit",
+                    "output": "kernfit",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "SVM.R",
+            "target": "Prediction.R"
         }
     ],
     "nodes": [
@@ -220,6 +231,6 @@
             "name": "Prediction.R"
         }
     ],
-    "updated_at": "2018-11-30 05:41:26",
+    "updated_at": "2018-11-30 05:41:35",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
