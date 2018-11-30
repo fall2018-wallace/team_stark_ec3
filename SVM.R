@@ -1,7 +1,6 @@
 
 library(jsonlite)
 
-library(tidyverse)
 library(dplyr)
 library(kernlab)
 
