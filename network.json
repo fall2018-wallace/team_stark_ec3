@@ -116,26 +116,6 @@
         {
             "ports": [
                 {
-                    "output": "bar1",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploring_data.R",
-            "target": "plot256.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "bar2",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploring_data.R",
-            "target": "plot2683.png"
-        },
-        {
-            "ports": [
-                {
                     "input": "data",
                     "output": "data",
                     "type": "r_obj"
@@ -147,22 +127,23 @@
         {
             "ports": [
                 {
-                    "output": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "outlierTest.R",
-            "target": "data1.csv"
-        },
-        {
-            "ports": [
-                {
                     "output": "ageSat",
                     "type": "png"
                 }
             ],
             "source": "Exploring_data.R",
             "target": "ageSat.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "outlierTest.R",
+            "target": "Bayers.R"
         }
     ],
     "nodes": [
@@ -185,21 +166,9 @@
             "name": "ageSat.png"
         },
         {
-            "name": "plot256.png"
-        },
-        {
-            "name": "plot2683.png"
-        },
-        {
             "assigned_to": "sahmed",
             "desc": "Association Rules",
             "name": "AssociationMine.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "agauribi",
-            "desc": "Support Vector Machine",
-            "name": "SVM.R",
             "task_status": "in progress"
         },
         {
@@ -221,9 +190,6 @@
             "task_status": "validating"
         },
         {
-            "name": "data1.csv"
-        },
-        {
             "assigned_to": "xsong21",
             "desc": "Logistic regression",
             "name": "LogisticRegression.R",
@@ -234,8 +200,20 @@
             "desc": "Exploring the data. calculating the spread, central tendency",
             "name": "Exploring_data.R",
             "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Support Vector Machine",
+            "name": "SVM.R",
+            "task_status": "validating"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Naive Bayes Classification and Random Decision Forest",
+            "name": "Bayers.R",
+            "task_status": "validating"
         }
     ],
-    "updated_at": "2018-11-29 16:56:53",
+    "updated_at": "2018-11-30 13:53:11",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
