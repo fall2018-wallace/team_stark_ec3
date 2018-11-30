@@ -4,9 +4,8 @@ library(jsonlite)
 library(tidyverse)
 library(dplyr)
 library(kernlab)
-setwd("D:/Workspace Syracuse/Intro to Data Science/")
-data <- read.csv("data1.csv", stringsAsFactors = FALSE)
 
+data <- data
 kl <- data[data$Satisfaction > 3.5,]
 
 data[data$Satisfaction >= 3.5, "Overall_Satisfaction"] <- "Satisfied"
