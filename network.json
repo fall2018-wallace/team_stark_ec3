@@ -212,8 +212,11 @@
             "desc": "Support Vector Machine",
             "name": "SVM.R",
             "task_status": "validating"
+        },
+        {
+            "name": "plot.png"
         }
     ],
-    "updated_at": "2018-11-30 13:54:13",
+    "updated_at": "2018-11-30 13:54:25",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
