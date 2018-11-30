@@ -143,6 +143,17 @@
             ],
             "source": "Exploring_data.R",
             "target": "ageSat.png"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "outlierTest.R",
+            "target": "Bayers.R"
         }
     ],
     "nodes": [
@@ -214,6 +225,6 @@
             "name": "Bayers.R"
         }
     ],
-    "updated_at": "2018-11-30 13:46:16",
+    "updated_at": "2018-11-30 13:46:49",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
