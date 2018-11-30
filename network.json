@@ -209,11 +209,11 @@
         },
         {
             "assigned_to": "agauribi",
-            "desc": "",
+            "desc": "Naive Bayes Classification and Random Decision Forest",
             "name": "Bayers.R",
             "task_status": "validating"
         }
     ],
-    "updated_at": "2018-11-30 13:47:16",
+    "updated_at": "2018-11-30 13:53:11",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
