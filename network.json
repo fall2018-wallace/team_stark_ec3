@@ -179,9 +179,6 @@
             "name": "plot256.png"
         },
         {
-            "name": "plot2683.png"
-        },
-        {
             "assigned_to": "sahmed",
             "desc": "Association Rules",
             "name": "AssociationMine.R",
@@ -227,10 +224,12 @@
             "task_status": "in progress"
         },
         {
+            "assigned_to": "agauribi",
             "desc": "",
-            "name": "Prediction.R"
+            "name": "Prediction.R",
+            "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-11-30 05:41:35",
+    "updated_at": "2018-11-30 05:47:12",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
