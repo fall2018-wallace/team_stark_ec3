@@ -1,4 +1,9 @@
 
+library(jsonlite)
+library(dplyr)
+library(kernlab)
+library(randomForest)
+
 data <- data
 data$Satisfaction = as.character(data$Satisfaction)
 kl <- data[data$Satisfaction > 3.5,]
@@ -53,3 +58,7 @@ table(predictions_mlr[,1],Clean_dataset$Overall_Satisfaction)
   
   
 ## Random Forest
+Rf_fit<-randomForest(formula=Overall_Satisfaction~., data=data_clean)
+
+print(Rf_fit)
+importance(Rf_fit)
