@@ -27,37 +27,3 @@ NB_Predictions=predict(Naive_Bayes_Model,Clean_dataset)
 table(NB_Predictions,Clean_dataset$Overall_Satisfaction)
 
 
-
-#Getting started with Naive Bayes in mlr
-#Install the package
-#install.packages(“mlr”)
-#Loading the library
-library(mlr)
-
-#Create a classification task for learning on Titanic Dataset and specify the target feature
-task = makeClassifTask(data = Clean_dataset, target = "Overall_Satisfaction")
-
-#Initialize the Naive Bayes classifier
-selected_model = makeLearner("classif.naiveBayes")
-
-#Train the model
-NB_mlr = train(selected_model, task)
-
-#Read the model learned  
-NB_mlr$learner.model
-
-
-#Predict on the dataset without passing the target feature
-predictions_mlr = as.data.frame(predict(NB_mlr, newdata = Clean_dataset[,1:8]))
-
-##Confusion matrix to check accuracy
-table(predictions_mlr[,1],Clean_dataset$Overall_Satisfaction)
-  
-  
-  
-  
-## Random Forest
-Rf_fit<-randomForest(formula=Overall_Satisfaction~., data=data_clean)
-
-print(Rf_fit)
-importance(Rf_fit)
