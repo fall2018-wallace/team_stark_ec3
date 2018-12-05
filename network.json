@@ -212,8 +212,11 @@
             "desc": "Naive Bayes Classification",
             "name": "Bayers.R",
             "task_status": "validating"
+        },
+        {
+            "name": "Satisfaction_by_Airline.png"
         }
     ],
-    "updated_at": "2018-12-05 03:55:04",
+    "updated_at": "2018-12-05 03:56:32",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
