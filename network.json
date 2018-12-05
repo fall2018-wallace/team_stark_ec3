@@ -143,7 +143,7 @@
                 }
             ],
             "source": "Exploring_data.R",
-            "target": "ageSat.png"
+            "target": "Satisfaction_by_Age.png"
         }
     ],
     "nodes": [
@@ -163,7 +163,7 @@
             "name": "Sample.csv"
         },
         {
-            "name": "ageSat.png"
+            "name": "Satisfaction_by_Age.png"
         },
         {
             "assigned_to": "sahmed",
@@ -214,6 +214,6 @@
             "task_status": "validating"
         }
     ],
-    "updated_at": "2018-12-05 03:53:23",
+    "updated_at": "2018-12-05 03:55:04",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
