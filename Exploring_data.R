@@ -1,21 +1,28 @@
 
 d<- clean_data
-head(d)
+#head(d)
 #library(dplyr)
 #x<- group_by(d, d$Gender)
 #x1<- summarise(x,cou= n())
 #o<- pie(x1$cou)
+
+# Need this line in our actual code to produce the correct output for Satifcation 
+# categories 
+d$Satisfaction<-as.numeric(as.character(d$Satisfaction))
 
 d$Satisfaction_b<- replicate(length(d$Satisfaction), "Average")
 d$Satisfaction_b[(d$Satisfaction)<3 ]<- "Low"
 d$Satisfaction_b[(d$Satisfaction)>3.5]<- "High"
 d$Satisfaction_b<- as.factor(d$Satisfaction_b)
 
+
 q1 <- quantile(d$Age, c(0.4, 0.6))## to determine the values of the 40th and 60 the percentile
-d$Age_b <- replicate(length(d$Age), "Average") ##A new colum is created replicating average upto the length of the vector
-d$Age_b[d$Age<= q1[1]] <- "Low" ## vector having value lesser than 40th percentile are labelled as low
-d$Age_b[d$Age > q1[2]] <- "High" ## vector having value greater than 60th percentile are labelled as high
+d$Age_b <- replicate(length(d$Age), "41-50") ##A new colum is created replicating average upto the length of the vector
+d$Age_b[d$Age<= q1[1]] <- "15-40" ## vector having value lesser than 40th percentile are labelled as low
+d$Age_b[d$Age > q1[2]] <- "51-85" ## vector having value greater than 60th percentile are labelled as high
 d$Age_b<- as.factor(d$Age_b) ## the new column is conevrted in factor class
+
+d$Age_b<-round(d$Age_b)
 
 d$Price.Sensitivity_b<- replicate(length(d$Price.Sensitivity), "Average")
 d$Price.Sensitivity_b[as.numeric(d$Price.Sensitivity)<3 ]<- "Low"
@@ -51,9 +58,20 @@ d$Flight.time.in.minutes_b[d$Flight.time.in.minutes <= q1[1]] <- "Low" ## vector
 d$Flight.time.in.minutes_b[d$Flight.time.in.minutes > q1[2]] <- "High" ## vector having value greater than 60th percentile are labelled as high
 d$Flight.time.in.minutes_b<- as.factor(d$Flight.time.in.minutes_b) ## the new column is conevrted in factor class
 
+# Stacked Bar Plot with Colors and Legend ## Hotel Satisfaction by Age Group
+counts <- table(d$Age_b, d$Satisfaction)
+barplot(counts, main="Overall Cust Satisfaction by Age Group",
+        ylab = "Count by Age",
+        xlab="Satisfaction Score", col=c("darkblue","red", "yellow"),
+        legend = rownames(counts))
 
-str(d)
-
-ageSat<-plot(d$Satisfaction_b, d$Age_b)
-
-q1
+# Grouped Bar Plot ## Overall customer satisfaction by airline name (bar)
+counts1 <- table(d$Satisfaction_b, d$Airline.Name)
+op <- par(mar = c(10,4,4,2) + 0.1)
+barplot(counts1, main="Overall Cust Satisfaction by Airline",
+        xlab="Airlines", col=topo.colors(3),
+        ylab = "Count of Satisfaction",
+        beside=TRUE, las=2,cex.names=0.5,cex=0.5)
+legend("topright", inset=.02, title="Satisfaction Group",
+      c("Average","High","Low"),fill=topo.colors(3), horiz=TRUE, cex=0.5)
+par(op)
