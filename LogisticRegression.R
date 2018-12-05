@@ -28,11 +28,6 @@ GLM1 <- glm(satlevel ~ Airline.Status +Age+ Gender +Price.Sensitivity+
     data = satSuv, family = binomial(link="logit"))
 summary(GLM1)
 
-Residual_Deviance0 <- 43211
-Null_Deviance0 <- 111244
-pseudo_R0 <- 1 - (Residual_Deviance0/Null_Deviance0)
-pseudo_R0
-
 GLM2 <- glm(satlevel ~ Airline.Status +Age+ Gender +Price.Sensitivity+ 
     No.of.Flights.p.a. +X..of.Flight.with.other.Airlines+
      Type.of.Travel+No..of.other.Loyalty.Cards +Shopping.Amount.at.Airport+
