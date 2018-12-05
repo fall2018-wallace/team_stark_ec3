@@ -177,12 +177,6 @@
         },
         {
             "assigned_to": "sahmed",
-            "desc": "Association Rules",
-            "name": "AssociationMine.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "sahmed",
             "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
             "name": "clean.R",
             "task_status": "completed"
@@ -225,8 +219,14 @@
         },
         {
             "name": "Satisfaction_by_Airline.png"
+        },
+        {
+            "assigned_to": "sahmed",
+            "desc": "Association Rules",
+            "name": "AssociationMine.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-05 03:56:45",
+    "updated_at": "2018-12-05 23:41:31",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
