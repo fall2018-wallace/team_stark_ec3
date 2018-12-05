@@ -22,7 +22,7 @@ d$Age_b[d$Age<= q1[1]] <- "15-40" ## vector having value lesser than 40th percen
 d$Age_b[d$Age > q1[2]] <- "51-85" ## vector having value greater than 60th percentile are labelled as high
 d$Age_b<- as.factor(d$Age_b) ## the new column is conevrted in factor class
 
-d$Age_b<-round(d$Age_b)
+#d$Age_b<-round(d$Age_b)
 
 d$Price.Sensitivity_b<- replicate(length(d$Price.Sensitivity), "Average")
 d$Price.Sensitivity_b[as.numeric(d$Price.Sensitivity)<3 ]<- "Low"
