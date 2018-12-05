@@ -2,7 +2,7 @@
 satSuv<-data
 
 satSuv$satlevel[satSuv$Satisfaction <3] <- 'low'
-satSuv$satlevel[satSuv$Satisfaction =3] <- 'average'
+satSuv$satlevel[satSuv$Satisfaction ==3] <- 'average'
 satSuv$satlevel[satSuv$Satisfaction >3] <- 'high'
 head(satSuv)
 library(MASS)
