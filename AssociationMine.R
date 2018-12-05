@@ -103,10 +103,5 @@ inspect(rules) ## to view the ruleset
 
 plot(rules) ## gives the scatter plot for the support and confidence of the 8 rules
 
-goodrules <- rules[quality(rules)$lift > 1.17] ## to get the rules with highest confidence
+goodrules <- rules[quality(rules)$support >0.55 & quality(rules)$confidence > .9312] ## to get the rules with highest confidence
 inspect(goodrules) ## to view the ruleset
-
-RULES<- sort(rules, by =c("confidence"))
- 
-inspect(head(RULES))
-summary(RULES)
