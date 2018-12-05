@@ -8,4 +8,5 @@ clean_data<- clean_data[-38898:-38900,]
 rownames(clean_data)<-NULL
 sum(is.na(clean_data))
 length(clean_data)
+dim(clean_data)
 
