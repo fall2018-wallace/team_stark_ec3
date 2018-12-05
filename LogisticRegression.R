@@ -1,11 +1,11 @@
 
 satSuv<-data
-
+# make satisfaction score categorical variable
 satSuv$satlevel[satSuv$Satisfaction <3] <- 'low'
 satSuv$satlevel[satSuv$Satisfaction ==3] <- 'median'
 satSuv$satlevel[satSuv$Satisfaction >3] <- 'high'
 satSuv<-satSuv[satSuv$satlevel != 'median',]
-
+# transfer the categorical variables into factors.
 satSuv$Airline.Status<-as.factor(satSuv$Airline.Status)
 satSuv$Gender<-as.factor(satSuv$Gender)
 satSuv$Type.of.Travel<-as.factor(satSuv$Type.of.Travel)
