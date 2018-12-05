@@ -111,98 +111,7 @@
                 }
             ],
             "source": "outlierTest.R",
-            "target": "MultiRegression.R"
-        },
-        {
-            "ports": [
-                {
-                    "input": "data",
-                    "output": "data",
-                    "type": "r_obj"
-                }
-            ],
-            "source": "outlierTest.R",
             "target": "AssociationMine.R"
-        },
-        {
-            "ports": [
-                {
-                    "output": "my_Plot",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploring_data.R",
-            "target": "plot6715.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "bar1",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploring_data.R",
-            "target": "plot256.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot1",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot1.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot2",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot2.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot3",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot3.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot4",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot4.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "plot",
-                    "type": "png"
-                }
-            ],
-            "source": "MultiRegression.R",
-            "target": "plot_linear.png"
-        },
-        {
-            "ports": [
-                {
-                    "output": "bar2",
-                    "type": "png"
-                }
-            ],
-            "source": "Exploring_data.R",
-            "target": "plot2683.png"
         },
         {
             "ports": [
@@ -218,12 +127,33 @@
         {
             "ports": [
                 {
+                    "input": "data",
                     "output": "data",
-                    "type": "csv"
+                    "type": "r_obj"
                 }
             ],
             "source": "outlierTest.R",
-            "target": "data1.csv"
+            "target": "Bayers.R"
+        },
+        {
+            "ports": [
+                {
+                    "output": "counts",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploring_data.R",
+            "target": "Satisfaction_by_Age.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "counts1",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploring_data.R",
+            "target": "Satisfaction_by_Airline.png"
         }
     ],
     "nodes": [
@@ -240,49 +170,16 @@
             "name": "day_of_month.png"
         },
         {
-            "name": "plot_linear.png"
-        },
-        {
             "name": "Sample.csv"
         },
         {
-            "name": "plot6715.png"
-        },
-        {
-            "name": "plot256.png"
-        },
-        {
-            "name": "plot2683.png"
-        },
-        {
-            "name": "plot1.png"
-        },
-        {
-            "name": "plot2.png"
-        },
-        {
-            "name": "plot3.png"
-        },
-        {
-            "name": "plot4.png"
+            "name": "Satisfaction_by_Age.png"
         },
         {
             "assigned_to": "sahmed",
             "desc": "Association Rules",
             "name": "AssociationMine.R",
             "task_status": "in progress"
-        },
-        {
-            "assigned_to": "agauribi",
-            "desc": "Support Vector Machine",
-            "name": "SVM.R",
-            "task_status": "in progress"
-        },
-        {
-            "assigned_to": "spachika",
-            "desc": "Exploring the data. calculating the spread, central tendency",
-            "name": "Exploring_data.R",
-            "task_status": "completed"
         },
         {
             "assigned_to": "sahmed",
@@ -303,21 +200,33 @@
             "task_status": "validating"
         },
         {
-            "name": "data1.csv"
-        },
-        {
             "assigned_to": "xsong21",
             "desc": "Logistic regression",
             "name": "LogisticRegression.R",
             "task_status": "completed"
         },
         {
-            "assigned_to": "sahmed",
-            "desc": "MultipleLinearRegression analysis",
-            "name": "MultiRegression.R",
+            "assigned_to": "beallen",
+            "desc": "Exploring the data. calculating the spread, central tendency",
+            "name": "Exploring_data.R",
+            "task_status": "in progress"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Support Vector Machine",
+            "name": "SVM.R",
             "task_status": "validating"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Naive Bayes Classification",
+            "name": "Bayers.R",
+            "task_status": "validating"
+        },
+        {
+            "name": "Satisfaction_by_Airline.png"
         }
     ],
-    "updated_at": "2018-11-29 16:18:23",
+    "updated_at": "2018-12-05 03:56:45",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
