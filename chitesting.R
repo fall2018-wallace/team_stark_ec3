@@ -1,9 +1,9 @@
 
 satSuv<-data
 
-satSuv$satlevel[satSuv$Satisfaction <2.5] <- 'low'
-satSuv$satlevel[satSuv$Satisfaction >2 & satSuv$Satisfaction <4] <- 'median'
-satSuv$satlevel[satSuv$Satisfaction >3.5] <- 'high'
+satSuv$satlevel[satSuv$Satisfaction <3] <- 'low'
+satSuv$satlevel[satSuv$Satisfaction =3] <- 'average'
+satSuv$satlevel[satSuv$Satisfaction >3] <- 'high'
 head(satSuv)
 library(MASS)
 tb1<-table(satSuv$Airline.Status,satSuv$satlevel)
