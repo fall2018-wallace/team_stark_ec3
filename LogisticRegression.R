@@ -1,11 +1,11 @@
 
 satSuv<-data
-
+# make satisfaction score categorical variable
 satSuv$satlevel[satSuv$Satisfaction <3] <- 'low'
 satSuv$satlevel[satSuv$Satisfaction ==3] <- 'median'
 satSuv$satlevel[satSuv$Satisfaction >3] <- 'high'
 satSuv<-satSuv[satSuv$satlevel != 'median',]
-
+# transfer the categorical variables into factors.
 satSuv$Airline.Status<-as.factor(satSuv$Airline.Status)
 satSuv$Gender<-as.factor(satSuv$Gender)
 satSuv$Type.of.Travel<-as.factor(satSuv$Type.of.Travel)
@@ -15,7 +15,9 @@ satSuv$Airline.Name<-as.factor(satSuv$Airline.Name)
 satSuv$Flight.cancelled<-as.factor(satSuv$Flight.cancelled)
 satSuv$Arrival.Delay.greater.5.Mins<-as.factor(satSuv$Arrival.Delay.greater.5.Mins)
 satSuv$satlevel <-as.factor(satSuv$satlevel)
+
 str(satSuv)
+
 GLM1 <- glm(satlevel ~ Airline.Status +Age+ Gender +Price.Sensitivity+ 
     Year.of.First.Flight+ No.of.Flights.p.a. +X..of.Flight.with.other.Airlines+
      Type.of.Travel+No..of.other.Loyalty.Cards +Shopping.Amount.at.Airport+
