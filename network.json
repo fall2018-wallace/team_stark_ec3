@@ -184,6 +184,17 @@
             ],
             "source": "outlierTest.R",
             "target": "csvfile7548.csv"
+        },
+        {
+            "ports": [
+                {
+                    "input": "data",
+                    "output": "data",
+                    "type": "r_obj"
+                }
+            ],
+            "source": "outlierTest.R",
+            "target": "Ensembler.R"
         }
     ],
     "nodes": [
@@ -270,6 +281,6 @@
             "name": "Ensembler.R"
         }
     ],
-    "updated_at": "2018-12-06 10:16:21",
+    "updated_at": "2018-12-06 10:16:36",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
