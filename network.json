@@ -164,6 +164,16 @@
             ],
             "source": "Exploring_data.R",
             "target": "plot5791.png"
+        },
+        {
+            "ports": [
+                {
+                    "output": "g",
+                    "type": "png"
+                }
+            ],
+            "source": "Exploring_data.R",
+            "target": "plot1469.png"
         }
     ],
     "nodes": [
@@ -243,6 +253,6 @@
             "name": "plot1469.png"
         }
     ],
-    "updated_at": "2018-12-06 03:55:15",
+    "updated_at": "2018-12-06 03:55:34",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
