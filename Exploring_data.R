@@ -85,3 +85,10 @@ lbls <- paste(lbls, pct) # add percents to labels
 lbls <- paste(lbls,"%",sep="") # ad % to labels 
 p<-pie(slices,labels = lbls,main="Pie Chart of Customer satisfaction level")
 p
+
+library(dplyr)
+dg<- dat%>% group_by(d.Type.of.Travel,d.Satisfaction_b)
+ds<-summarise(dg,tot= n())
+g6<-ggplot(ds, aes(x= d.Type.of.Travel,y= tot ,fill= d.Satisfaction_b)) + geom_col( color="blue",stat = "identity") + theme(axis.text.x = element_text(angle = 45, hjust=1))
+g<- g6 + labs(x= "Travel type", y="Number Of Customers") + ggtitle("Customer Count for Different Travel type") + scale_fill_discrete(name="Satisfaction Level")
+g
