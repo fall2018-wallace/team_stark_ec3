@@ -75,3 +75,4 @@ barplot(counts1, main="Overall Cust Satisfaction by Airline",
 legend("topright", inset=.02, title="Satisfaction Group",
       c("Average","High","Low"),fill=topo.colors(3), horiz=TRUE, cex=0.5)
 par(op)
+op
