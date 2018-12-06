@@ -246,12 +246,6 @@
             "name": "plot1469.png"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "Support Vector Machine",
-            "name": "SVM.R",
-            "task_status": "validating"
-        },
-        {
             "assigned_to": "sahmed",
             "desc": "Exploring the data. calculating the spread, central tendency",
             "name": "Exploring_data.R",
@@ -268,8 +262,14 @@
             "desc": "Naive Bayes Classification",
             "name": "Bayers.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Support Vector Machine",
+            "name": "SVM.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-06 11:46:31",
+    "updated_at": "2018-12-06 11:46:35",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
