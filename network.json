@@ -220,12 +220,6 @@
         },
         {
             "assigned_to": "xsong21",
-            "desc": "Chi Testing",
-            "name": "chitesting.R",
-            "task_status": "validating"
-        },
-        {
-            "assigned_to": "xsong21",
             "desc": "Logistic regression",
             "name": "LogisticRegression.R",
             "task_status": "completed"
@@ -268,8 +262,14 @@
             "desc": "Exploring the data. calculating the spread, central tendency",
             "name": "Exploring_data.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "xsong21",
+            "desc": "Chi Testing",
+            "name": "chitesting.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-06 11:46:45",
+    "updated_at": "2018-12-06 11:46:54",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
