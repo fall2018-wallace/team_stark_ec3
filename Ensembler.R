@@ -1,7 +1,6 @@
 
 data <- data
 library('caret')
-library('RANN')
 library(e1071)
 library(dplyr)
 library(kernlab)
