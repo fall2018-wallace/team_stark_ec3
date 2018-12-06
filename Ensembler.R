@@ -33,3 +33,9 @@ fitControl <- trainControl(
   number = 5,
   savePredictions = 'final',
   classProbs = T)
+  
+model_rf<-train(trainData[,predictors],trainData[,outcomeName],method='rf',trControl=fitControl,tuneLength=3)
+
+testData$pred_rf<-predict(object = model_rf,testData[,predictors])
+
+confusionMatrix(testData$Overall_Satisfaction,testData$pred_rf)
