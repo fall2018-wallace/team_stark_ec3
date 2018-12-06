@@ -95,16 +95,6 @@
         {
             "ports": [
                 {
-                    "output": "data",
-                    "type": "csv"
-                }
-            ],
-            "source": "outlierTest.R",
-            "target": "Sample.csv"
-        },
-        {
-            "ports": [
-                {
                     "input": "data",
                     "output": "data",
                     "type": "r_obj"
@@ -201,9 +191,6 @@
             "name": "day_of_month.png"
         },
         {
-            "name": "Sample.csv"
-        },
-        {
             "name": "Satisfaction_by_Age.png"
         },
         {
@@ -270,6 +257,6 @@
             "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-06 11:47:03",
+    "updated_at": "2018-12-06 12:16:06",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
