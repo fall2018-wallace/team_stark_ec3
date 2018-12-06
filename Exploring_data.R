@@ -76,3 +76,12 @@ legend("topright", inset=.02, title="Satisfaction Group",
       c("Average","High","Low"),fill=topo.colors(3), horiz=TRUE, cex=0.5)
 par(op)
 op
+
+# Pie Chart with Percentages
+slices <- c(20.469, 79.53,0.001) 
+lbls <- c("Low(<3)", "High(>3)", "Average(=3)")
+pct <- round(slices/sum(slices)*100)
+lbls <- paste(lbls, pct) # add percents to labels 
+lbls <- paste(lbls,"%",sep="") # ad % to labels 
+pie(slices,labels = lbls,main="Pie Chart of Customer satisfaction level")
+
