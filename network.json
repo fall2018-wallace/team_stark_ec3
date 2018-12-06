@@ -265,11 +265,11 @@
         },
         {
             "assigned_to": "agauribi",
-            "desc": "",
+            "desc": "Combination of Random Forest, K-nearest neighbors and logistic algorithms to get an effect predictive model",
             "name": "Ensembler.R",
-            "task_status": "in progress"
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-06 11:43:15",
+    "updated_at": "2018-12-06 11:46:26",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
