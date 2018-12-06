@@ -138,12 +138,12 @@
         {
             "ports": [
                 {
-                    "output": "counts1",
+                    "output": "op",
                     "type": "png"
                 }
             ],
             "source": "Exploring_data.R",
-            "target": "Satisfaction_by_Airline.png"
+            "target": "Satisfaction_by_Age.png"
         },
         {
             "ports": [
@@ -153,7 +153,7 @@
                 }
             ],
             "source": "Exploring_data.R",
-            "target": "Satisfaction_by_Age.png"
+            "target": "Satisfaction_by_Airline.png"
         }
     ],
     "nodes": [
@@ -227,6 +227,6 @@
             "task_status": "in progress"
         }
     ],
-    "updated_at": "2018-12-06 00:11:18",
+    "updated_at": "2018-12-06 00:11:26",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
