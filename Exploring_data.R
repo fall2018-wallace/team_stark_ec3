@@ -84,4 +84,4 @@ pct <- round(slices/sum(slices)*100)
 lbls <- paste(lbls, pct) # add percents to labels 
 lbls <- paste(lbls,"%",sep="") # ad % to labels 
 p<-pie(slices,labels = lbls,main="Pie Chart of Customer satisfaction level")
-
+p
