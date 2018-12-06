@@ -225,8 +225,11 @@
             "desc": "Exploring the data. calculating the spread, central tendency",
             "name": "Exploring_data.R",
             "task_status": "in progress"
+        },
+        {
+            "name": "plot5791.png"
         }
     ],
-    "updated_at": "2018-12-06 00:11:31",
+    "updated_at": "2018-12-06 03:28:05",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
