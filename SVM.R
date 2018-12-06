@@ -34,5 +34,5 @@ testData <- data_clean[rand_index[(cut_point_2_by_3 + 1) : dim(data_clean)[1]], 
 str(trainData)
 str(testData)
 
-kernfit <- ksvm(Overall_Satisfaction ~., data = trainData, kernel = "rbfdot", kpar = "automatic", C = 5, cross = 3, prob.model = TRUE)
-kernfit
+#kernfit <- ksvm(Overall_Satisfaction ~., data = trainData, kernel = "rbfdot", kpar = "automatic", C = 5, cross = 3, prob.model = TRUE)
+#kernfit
