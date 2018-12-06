@@ -219,12 +219,6 @@
             "task_status": "completed"
         },
         {
-            "assigned_to": "xsong21",
-            "desc": "Logistic regression",
-            "name": "LogisticRegression.R",
-            "task_status": "completed"
-        },
-        {
             "name": "Satisfaction_by_Airline.png"
         },
         {
@@ -268,8 +262,14 @@
             "desc": "Chi Testing",
             "name": "chitesting.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "xsong21",
+            "desc": "Logistic regression",
+            "name": "LogisticRegression.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-06 11:46:54",
+    "updated_at": "2018-12-06 11:46:57",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
