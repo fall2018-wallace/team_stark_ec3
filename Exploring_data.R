@@ -75,3 +75,22 @@ barplot(counts1, main="Overall Cust Satisfaction by Airline",
 legend("topright", inset=.02, title="Satisfaction Group",
       c("Average","High","Low"),fill=topo.colors(3), horiz=TRUE, cex=0.5)
 par(op)
+op
+
+# Pie Chart with Percentages
+slices <- c(20.469, 79.53,0.001) 
+lbls <- c("Low(<3)", "High(>3)", "Average(=3)")
+pct <- round(slices/sum(slices)*100)
+lbls <- paste(lbls, pct) # add percents to labels 
+lbls <- paste(lbls,"%",sep="") # ad % to labels 
+p<-pie(slices,labels = lbls,main="Pie Chart of Customer satisfaction level")
+p
+
+library(dplyr)
+library(ggplot2)
+dat<- data.frame(d$Satisfaction_b, d$Type.of.Travel)
+dg<- dat%>% group_by(d.Type.of.Travel,d.Satisfaction_b)
+ds<-summarise(dg,tot= n())
+g<-ggplot(ds, aes(x= d.Type.of.Travel,y= tot ,fill= d.Satisfaction_b)) + geom_col( color="blue",stat = "identity") + theme(axis.text.x = element_text(angle = 45, hjust=1))
+g<- g + labs(x= "Travel type", y="Number Of Customers") + ggtitle("Customer Count for Different Travel type") + scale_fill_discrete(name="Satisfaction Level")
+g
