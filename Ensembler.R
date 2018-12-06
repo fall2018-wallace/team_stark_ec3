@@ -1,5 +1,6 @@
 
 data <- data
+library(e1071)
 library(dplyr)
 library(kernlab)
 library(randomForest)
