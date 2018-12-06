@@ -231,12 +231,6 @@
             "task_status": "completed"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "Naive Bayes Classification",
-            "name": "Bayers.R",
-            "task_status": "validating"
-        },
-        {
             "name": "Satisfaction_by_Airline.png"
         },
         {
@@ -268,8 +262,14 @@
             "desc": "Combination of Random Forest, K-nearest neighbors and logistic algorithms to get an effect predictive model",
             "name": "Ensembler.R",
             "task_status": "completed"
+        },
+        {
+            "assigned_to": "agauribi",
+            "desc": "Naive Bayes Classification",
+            "name": "Bayers.R",
+            "task_status": "completed"
         }
     ],
-    "updated_at": "2018-12-06 11:46:26",
+    "updated_at": "2018-12-06 11:46:31",
     "url": "https://github.com/fall2018-saltz/team_stark"
 }
