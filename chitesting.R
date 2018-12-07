@@ -21,12 +21,14 @@ chisq.test(tb2)
 tb3<-table(satSuv$Type.of.Travel,satSuv$satlevel)
 tb3
 chisq.test(tb3)
-# P<0.01,reject the null hypothesis that the satisfaction level is independent of the type of travel.
+# P<0.01,reject the null hypothesis that the satisfaction level is independent 
+#of the type of travel.
 # They are depended with each other.
 tb4<-table(satSuv$Class,satSuv$satlevel)
 tb4
 chisq.test(tb4)
-# P<0.01,reject the null hypothesis that the satisfaction level is independent of the class.
+# P<0.01,reject the null hypothesis that the satisfaction level is independent 
+#of the class.
 # They are depended with each other.
 tb5<-table(satSuv$Airline.Code,satSuv$satlevel)
 tb5
