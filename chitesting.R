@@ -9,12 +9,14 @@ library(MASS)
 tb1<-table(satSuv$Airline.Status,satSuv$satlevel)
 tb1
 chisq.test(tb1) 
-# P<0.01,reject the null hypothesis that the satisfaction level is independent of the airliene status.
+# P<0.01,reject the null hypothesis that the satisfaction level is independent 
+#of the airliene status.
 # They are depended with each other.
 tb2<-table(satSuv$Gender,satSuv$satlevel)
 tb2
 chisq.test(tb2) 
-# P<0.01,reject the null hypothesis that the satisfaction level is independent of the gender.
+# P<0.01,reject the null hypothesis that the satisfaction level is independent 
+#of the gender.
 # They are depended with each other.
 tb3<-table(satSuv$Type.of.Travel,satSuv$satlevel)
 tb3
