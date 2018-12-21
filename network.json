@@ -1,12 +1,8 @@
 {
     "collaborators": [
-        "sahmed",
-        "agauribi",
-        "spachika",
-        "xsong21",
-        "beallen"
+        "sim96"
     ],
-    "created_at": "2018-10-10 00:10:00",
+    "created_at": "2018-12-17 04:30:55",
     "edges": [
         {
             "ports": [
@@ -197,66 +193,50 @@
             "name": "Satisfaction_by_Airline.png"
         },
         {
-            "assigned_to": "sahmed",
-            "desc": "Association Rules",
-            "name": "AssociationMine.R",
-            "task_status": "completed"
-        },
-        {
             "name": "plot5791.png"
         },
         {
             "name": "plot1469.png"
         },
         {
-            "assigned_to": "agauribi",
-            "desc": "Combination of Random Forest, K-nearest neighbors and logistic algorithms to get an effect predictive model",
-            "name": "Ensembler.R",
-            "task_status": "completed"
+            "desc": "Logistic regression",
+            "name": "LogisticRegression.R"
         },
         {
-            "assigned_to": "agauribi",
+            "desc": "summary test to understand more about the data",
+            "name": "outlierTest.R"
+        },
+        {
+            "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
+            "name": "clean.R"
+        },
+        {
+            "desc": "Exploring the data. calculating the spread, central tendency",
+            "name": "Exploring_data.R"
+        },
+        {
+            "desc": "Chi Testing",
+            "name": "chitesting.R"
+        },
+        {
+            "desc": "Association Rules",
+            "name": "AssociationMine.R"
+        },
+        {
+            "desc": "Support Vector Machine",
+            "name": "SVM.R"
+        },
+        {
+            "desc": "Combination of Random Forest, K-nearest neighbors and logistic algorithms to get an effect predictive model",
+            "name": "Ensembler.R"
+        },
+        {
+            "assigned_to": "not assigned",
             "desc": "Naive Bayes Classification",
             "name": "Bayers.R",
-            "task_status": "completed"
-        },
-        {
-            "assigned_to": "agauribi",
-            "desc": "Support Vector Machine",
-            "name": "SVM.R",
-            "task_status": "completed"
-        },
-        {
-            "assigned_to": "xsong21",
-            "desc": "Chi Testing",
-            "name": "chitesting.R",
-            "task_status": "completed"
-        },
-        {
-            "assigned_to": "xsong21",
-            "desc": "Logistic regression",
-            "name": "LogisticRegression.R",
-            "task_status": "completed"
-        },
-        {
-            "assigned_to": "beallen",
-            "desc": "summary test to understand more about the data",
-            "name": "outlierTest.R",
-            "task_status": "completed"
-        },
-        {
-            "assigned_to": "sahmed",
-            "desc": "Tests were performed for to check the number of NULL values and Has in the dataset. Observations having NA values were removed. No observation had a Null value. ",
-            "name": "clean.R",
-            "task_status": "completed"
-        },
-        {
-            "assigned_to": "beallen",
-            "desc": "Exploring the data. calculating the spread, central tendency",
-            "name": "Exploring_data.R",
-            "task_status": "completed"
+            "task_status": "proposed"
         }
     ],
-    "updated_at": "2018-12-08 02:52:37",
-    "url": "https://github.com/fall2018-saltz/team_stark"
+    "updated_at": "2018-12-21 04:49:06",
+    "url": "https://github.com/fall2018-wallace/team_stark_ec3"
 }
